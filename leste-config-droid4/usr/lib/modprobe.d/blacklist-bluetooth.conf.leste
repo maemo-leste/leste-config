@@ -1,0 +1,2 @@
+# Bluetooth firmware loading has a race with wifi loading
+blacklist hci_uart

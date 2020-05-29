@@ -1,9 +1,9 @@
 Source: leste-config
-Section: config
-Priority: extra
+Section: misc
+Priority: optional
 Maintainer: Ivan J. <parazyd@dyne.org>
 Build-Depends: debhelper (>= 10), config-package-dev (>= 5.0)
-Standards-Version: 3.9.2
+Standards-Version: 4.3.0
 
 Package: leste-config-common
 Architecture: all
@@ -11,6 +11,8 @@ Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Maemo Leste configurations - Common
+ This package contains common configuration files for
+ Maemo Leste systems.
 
 Package: leste-config-n900
 Architecture: all
@@ -18,21 +20,32 @@ Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Maemo Leste configurations - N900
+ This package contains configuration files for Maemo
+ Leste on the Nokia N900.
 
 Package: leste-config-droid4
 Architecture: all
+Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Maemo Leste configurations - Droid4
+ This package contains configuration files for Maemo
+ Leste on the Motorola Droid4.
 
 Package: leste-config-pinephone
 Architecture: all
+Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Maemo Leste configurations - Pinephone
+ This package contains configuration files for Maemo
+ Leste on the Pine64 Pinephone.
 
 Package: leste-config-pinetab
 Architecture: all
+Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Maemo Leste configurations - Pinetab
+ This package contains configuration files for Maemo
+ Leste on the Pine64 Pinetab.

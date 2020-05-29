@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: leste-config
+Upstream-Contact: Ivan J. <parazyd@dyne.org>
+Source: https://github.com/maemo-leste/leste-config
+
+Files: *
+Copyright: 2020 Ivan J. <parazyd@dyne.org>
+License: GPL-3+

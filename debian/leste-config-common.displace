@@ -1,0 +1,6 @@
+/etc/osso-af-init/sdl.defs.leste
+/etc/sysctl.d/no-sysrq.conf.leste
+/etc/network/interfaces.d/eth0-hotplug.leste
+/etc/network/interfaces.d/wlan0-hotplug.leste
+/etc/wpa_supplicant/wpa_supplicant.conf.leste
+/usr/share/hildon-input-method/himrc.leste

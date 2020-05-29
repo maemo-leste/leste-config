@@ -1,0 +1,38 @@
+Source: leste-config
+Section: config
+Priority: extra
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends: debhelper (>= 10), config-package-dev (>= 5.0)
+Standards-Version: 3.9.2
+
+Package: leste-config-common
+Architecture: all
+Depends: ${misc:Depends}
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Maemo Leste configurations - Common
+
+Package: leste-config-n900
+Architecture: all
+Depends: ${misc:Depends}
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Maemo Leste configurations - N900
+
+Package: leste-config-droid4
+Architecture: all
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Maemo Leste configurations - Droid4
+
+Package: leste-config-pinephone
+Architecture: all
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Maemo Leste configurations - Pinephone
+
+Package: leste-config-pinetab
+Architecture: all
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Maemo Leste configurations - Pinetab

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+grep 'Package: ' control | cut -d' ' -f2 | while read -r pkg; do
+	printf "%s/* /\n" "$pkg" > "${pkg}.install"
+
+	(
+		cd "../${pkg}" || exit 1
+		find . -type f -name "*.leste" | cut -c2-
+	) > "${pkg}.displace"
+done

@@ -1,3 +1,10 @@
+leste-config (1.1-1) unstable; urgency=medium
+
+  * Rename some common configurations.
+  * Update displace files.
+
+ -- Ivan J. <parazyd@dyne.org>  Fri, 29 May 2020 18:14:16 +0200
+
 leste-config (1.0-2) unstable; urgency=medium
 
   * Make lintian happy.

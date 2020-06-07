@@ -1,2 +1,5 @@
 /etc/hildon-desktop.env.leste
+/usr/share/alsa/ucm2/sun50i-a64-audio/HiFi.conf.leste
+/usr/share/alsa/ucm2/sun50i-a64-audio/sun50i-a64-audio.conf.leste
+/usr/share/alsa/ucm2/sun50i-a64-audio/VoiceCall.conf.leste
 /usr/share/X11/xorg.conf.d/40-input.conf.leste

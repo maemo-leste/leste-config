@@ -5,6 +5,6 @@ grep 'Package: ' control | cut -d' ' -f2 | while read -r pkg; do
 
 	(
 		cd "../${pkg}" || exit 1
-		find . -type f -name "*.leste" | cut -c2-
+		find . -type f -name "*.leste" | sort | cut -c2-
 	) > "${pkg}.displace"
 done

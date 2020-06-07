@@ -16,6 +16,7 @@ Description: Maemo Leste configurations - Common
 
 Package: leste-config-n900
 Architecture: all
+Section: n900
 Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
@@ -25,6 +26,7 @@ Description: Maemo Leste configurations - N900
 
 Package: leste-config-droid4
 Architecture: all
+Section: droid4
 Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
@@ -34,6 +36,7 @@ Description: Maemo Leste configurations - Droid4
 
 Package: leste-config-pinephone
 Architecture: all
+Section: pinephone
 Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
@@ -43,6 +46,7 @@ Description: Maemo Leste configurations - Pinephone
 
 Package: leste-config-pinetab
 Architecture: all
+Section: pinephone
 Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}

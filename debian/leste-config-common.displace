@@ -1,5 +1,5 @@
+/etc/network/interfaces.leste
 /etc/osso-af-init/sdl.defs.leste
 /etc/sysctl.d/nosysrq.conf.leste
-/etc/network/interfaces.leste
 /etc/wpa_supplicant/wpa_supplicant.conf.leste
 /usr/share/hildon-input-method/himrc.leste

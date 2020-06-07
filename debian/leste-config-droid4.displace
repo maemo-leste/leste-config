@@ -1,3 +1,5 @@
+/etc/asound.conf.leste
+/lib/udev/rules.d/55-modem.rules.leste
 /usr/lib/modprobe.d/blacklist-bluetooth.conf.leste
 /usr/lib/modprobe.d/blacklist-idle.conf.leste
 /usr/lib/modules-load.d/droid4.conf.leste
@@ -6,5 +8,3 @@
 /usr/share/X11/xorg.conf.d.pvr/40-input.conf.leste
 /usr/share/X11/xorg.conf.d.pvr/40-omap-pvr.conf.leste
 /usr/share/X11/xorg.conf.d.pvr/99-omap.conf.leste
-/etc/asound.conf.leste
-/lib/udev/rules.d/55-modem.rules.leste

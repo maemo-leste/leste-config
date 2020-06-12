@@ -1,3 +1,9 @@
+leste-config (1.4-1) unstable; urgency=medium
+
+  * droid4/asound.conf: make the first soundcard the one we use
+
+ -- Ivan J. <parazyd@dyne.org>  Fri, 12 Jun 2020 18:13:40 +0200
+
 leste-config (1.3-1) unstable; urgency=medium
 
   * common: add ofono dbus rule to allow user to access dbus

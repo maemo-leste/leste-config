@@ -1,3 +1,9 @@
+leste-config (1.6-1) unstable; urgency=medium
+
+  * Move modprobe stuff to /etc rather than /usr/lib
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 23 Jun 2020 12:59:18 +0200
+
 leste-config (1.5-1) unstable; urgency=medium
 
   * Typo fix

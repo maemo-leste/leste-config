@@ -1,3 +1,9 @@
+leste-config (1.5-1) unstable; urgency=medium
+
+  * Typo fix
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 23 Jun 2020 11:22:03 +0200
+
 leste-config (1.4-1) unstable; urgency=medium
 
   * droid4/asound.conf: make the first soundcard the one we use

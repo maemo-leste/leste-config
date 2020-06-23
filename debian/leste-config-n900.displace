@@ -1,8 +1,8 @@
 /etc/default/keyboard.leste
+/etc/modprobe.d/nokia-modem.conf.leste
+/etc/modules-load.d/nokia-modem.conf.leste
 /etc/network/if-pre-up.d/00mac.leste
 /lib/udev/rules.d/10-nokia-modem.rules.leste
-/usr/lib/modprobe.d/nokia-modem.conf.leste
-/usr/lib/modules-load.d/nokia-modem.conf.leste
 /usr/share/X11/xorg.conf.d/40-xkb.conf.leste
 /usr/share/X11/xorg.conf.d/99-calibration.conf.leste
 /var/lib/alsa/asound.state.leste

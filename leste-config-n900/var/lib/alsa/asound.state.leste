@@ -697,7 +697,7 @@ state.RX51 {
 	control.49 {
 		iface MIXER
 		name 'TPA6130A2 Headphone Playback Volume'
-		value 0
+		value 42 
 		comment {
 			access 'read write'
 			type INTEGER
@@ -1462,7 +1462,7 @@ state.RX51 {
 	control.103 {
 		iface MIXER
 		name 'Jack Function'
-		value Off
+		value Headphone 
 		comment {
 			access 'read write'
 			type ENUMERATED

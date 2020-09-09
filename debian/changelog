@@ -1,3 +1,9 @@
+leste-config (1.8-1) unstable; urgency=medium
+
+  * Update droid4 specific mce.ini.d files
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Wed, 09 Sep 2020 15:34:02 +0200
+
 leste-config (1.7-1) unstable; urgency=medium
 
   * Add droid4 mce.ini.d specific files

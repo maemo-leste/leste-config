@@ -1,11 +1,13 @@
+# X.Org X server configuration file
+
 Section "Device"
-	Identifier "Video Device"
-	Driver "omap"
-	Option "Debug" "false"
+        Identifier      "Video Device"
+        Driver          "omap"
+        Option          "Debug"         "false"
 EndSection
 
 Section "Screen"
-	Identifier "Screen"
-	Monitor "Monitor"
-	Device "Video Device"
+        Identifier      "Screen"
+        Monitor         "Monitor"
+        Device          "Video Device"
 EndSection

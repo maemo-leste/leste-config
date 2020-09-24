@@ -4,4 +4,9 @@ echo "Updating udev hwdb"
 udevadm hwdb --update
 udevadm trigger
 
+# Clean up old files...
+rm -f /etc/X11/xorg.conf.d/40-input.conf
+rm -f /etc/X11/xorg.conf.d/40-ts.conf
+rm -f /etc/X11/xorg.conf.d/99-omap.conf
+
 #DEBHELPER#

@@ -1,3 +1,9 @@
+leste-config (1.10-1) unstable; urgency=medium
+
+  * Add Qt defines to /etc/profile.d
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 02 Oct 2020 14:27:33 +0200
+
 leste-config (1.9-1) unstable; urgency=medium
 
   * Update droid4 specific X11, udev and other files.

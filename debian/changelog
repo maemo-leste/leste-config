@@ -1,3 +1,9 @@
+leste-config (1.11-1) unstable; urgency=medium
+
+  * Remove SwapAxes and InvertY for Pine* xorg.conf.
+
+ -- Ivan J. <parazyd@dyne.org>  Fri, 02 Oct 2020 22:12:10 +0200
+
 leste-config (1.10-1) unstable; urgency=medium
 
   * Add Qt defines to /etc/profile.d

@@ -1,3 +1,9 @@
+leste-config (1.12-1) unstable; urgency=medium
+
+  * Add udev mount matrix for Pinephone.
+
+ -- Ivan J. <parazyd@dyne.org>  Mon, 05 Oct 2020 15:20:35 +0200
+
 leste-config (1.11-1) unstable; urgency=medium
 
   * Remove SwapAxes and InvertY for Pine* xorg.conf.

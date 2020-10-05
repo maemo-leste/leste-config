@@ -1,4 +1,5 @@
 /etc/hildon-desktop.env.leste
+/lib/udev/rules.d/50-iio-sensors.rules.leste
 /usr/share/alsa/ucm2/sun50i-a64-audio/HiFi.conf.leste
 /usr/share/alsa/ucm2/sun50i-a64-audio/sun50i-a64-audio.conf.leste
 /usr/share/alsa/ucm2/sun50i-a64-audio/VoiceCall.conf.leste

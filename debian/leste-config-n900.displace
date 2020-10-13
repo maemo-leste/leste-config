@@ -2,6 +2,7 @@
 /etc/modprobe.d/nokia-modem.conf.leste
 /etc/modules-load.d/nokia-modem.conf.leste
 /etc/network/if-pre-up.d/00mac.leste
+/etc/mce/mce.ini.d/70-n900.ini.leste
 /lib/udev/rules.d/10-nokia-modem.rules.leste
 /usr/share/X11/xorg.conf.d/40-xkb.conf.leste
 /usr/share/X11/xorg.conf.d/99-calibration.conf.leste

@@ -28,7 +28,7 @@ lp5523:kb6=1;0;0;0;0;0
 [IioAls]
 
 # n900 als reports lux but the values are very wrong corrected here
-CalScale=500
+CalScale=10000
 
 [Vibrator]
 

@@ -4,7 +4,7 @@
 
 [Modules]
 
-Modules=lock-tklock;lock-devlock;power-dsme;display-dev;x11-ctrl;inactivity-dev;battery-upower;filter-brightness-als-iio;iio-als;evdevvibrator;button-backlight;inactivity-inhibit
+Modules=lock-tklock;lock-devlock;power-dsme;display-dev;x11-ctrl;led;inactivity-dev;battery-upower;filter-brightness-als-iio;iio-als;evdevvibrator;button-backlight;inactivity-inhibit
 
 [Backlights]
 

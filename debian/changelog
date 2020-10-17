@@ -1,3 +1,13 @@
+leste-config (1.13-1) unstable; urgency=medium
+
+  * add mce config file for n900
+  * add missing led module
+  * mce: 70-n900.ini refine als scale
+  * n900: add iio-sensor-proxy config
+  * n900: add missing 50-iio-sensor-proxy.rules.leste
+
+ -- Ivan J. <parazyd@dyne.org>  Sat, 17 Oct 2020 10:52:49 +0200
+
 leste-config (1.12-1) unstable; urgency=medium
 
   * Add udev mount matrix for Pinephone.

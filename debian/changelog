@@ -1,3 +1,12 @@
+leste-config (1.14-1) unstable; urgency=medium
+
+  * n900: Use cat instead of shell redirect for eval in 00mac.
+  * mce: add bionic support
+  * Set up leste-config-bionic.
+  * Correct n900 displace file.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 20 Oct 2020 16:20:56 +0200
+
 leste-config (1.13-1) unstable; urgency=medium
 
   * add mce config file for n900

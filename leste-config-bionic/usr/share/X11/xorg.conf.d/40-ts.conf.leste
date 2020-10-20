@@ -1,0 +1,6 @@
+Section "InputClass"
+	Identifier "calibration"
+	MatchProduct "Atmel maXTouch Touchscreen"
+
+	Option "Calibration"   "-5 1026 -5 964"
+EndSection

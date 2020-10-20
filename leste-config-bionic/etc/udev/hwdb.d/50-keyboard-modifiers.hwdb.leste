@@ -1,0 +1,2 @@
+evdev:input:b0019v0001p0001e0001-*
+ KEYBOARD_KEY_3b=rightalt

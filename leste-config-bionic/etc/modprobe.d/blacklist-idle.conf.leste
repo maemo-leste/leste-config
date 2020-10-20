@@ -1,0 +1,3 @@
+# Block idle
+blacklist ehci-omap
+blacklist omap_hdq

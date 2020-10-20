@@ -34,6 +34,16 @@ Description: Maemo Leste configurations - Droid4
  This package contains configuration files for Maemo
  Leste on the Motorola Droid4.
 
+Package: leste-config-bionic
+Architecture: all
+Section: bionic
+Depends: ${misc:Depends}, leste-config-common
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Maemo Leste configurations - Droid Bionic
+ This package contains configuration files for Maemo
+ Leste on the Motorola Bionic.
+
 Package: leste-config-pinephone
 Architecture: all
 Section: pinephone

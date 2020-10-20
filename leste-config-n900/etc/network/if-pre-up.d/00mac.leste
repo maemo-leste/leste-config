@@ -12,6 +12,6 @@ if ! [ -f "$mac_file" ]; then
 	echo "macaddr=$macaddr" > "$mac_file"
 fi
 
-eval < "$mac_file"
+eval "$(cat "$mac_file")"
 
 ip link set dev "$IFACE" address "$macaddr"

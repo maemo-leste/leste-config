@@ -1,3 +1,9 @@
+leste-config (1.15-1) unstable; urgency=medium
+
+  * bionic: add correct accel mount matrix
+
+ -- Ivan J. <parazyd@dyne.org>  Fri, 23 Oct 2020 13:29:28 +0200
+
 leste-config (1.14-1) unstable; urgency=medium
 
   * n900: Use cat instead of shell redirect for eval in 00mac.

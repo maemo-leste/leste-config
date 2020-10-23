@@ -1,2 +1,2 @@
 SUBSYSTEM=="iio", ENV{OF_NAME}=="isl29030", ENV{PROXIMITY_NEAR_LEVEL}+="200"
-SUBSYSTEM=="iio", ENV{OF_NAME}=="accelerometer", ENV{ACCEL_MOUNT_MATRIX}="-1, 0, 0; 0, -1, 0; 0, 0, 1"
+SUBSYSTEM=="iio", ENV{OF_NAME}=="accelerometer", ENV{ACCEL_MOUNT_MATRIX}="1, 0, 0; 0, -1, 0; 0, 0, 1"

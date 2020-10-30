@@ -1,4 +1,4 @@
-leste-config (1.17-1) unstable; urgency=medium
+leste-config (1.18-1) unstable; urgency=medium
 
   * common: Create MyDocs user dirs on preinst.
 

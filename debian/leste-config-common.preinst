@@ -14,7 +14,8 @@ xdg_dirs="
 "
 
 case "$1" in
-install)
+# TODO: remove "upgrade" at some point
+install|upgrade)
 	for i in $xdg_dirs; do
 		mkdir -p "$i"
 		chown user:user "$i"

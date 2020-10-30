@@ -4,4 +4,5 @@
 /etc/profile.d/qt-maemo.sh.leste
 /etc/sysctl.d/nosysrq.conf.leste
 /etc/wpa_supplicant/wpa_supplicant.conf.leste
+/home/user/.config/user-dirs.dirs.leste
 /usr/share/hildon-input-method/himrc.leste

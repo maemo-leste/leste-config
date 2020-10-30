@@ -1,0 +1,6 @@
+XDG_DOCUMENTS_DIR="$HOME/MyDocs/.documents"
+XDG_MUSIC_DIR="$HOME/MyDocs/.sounds"
+XDG_PICTURES_DIR="$HOME/MyDocs/.images"
+XDG_VIDEOS_DIR="$HOME/MyDocs/.videos"
+NOKIA_CAMERA_DIR="$HOME/MyDocs/DCIM"
+#NOKIA_MMC_CAMERA_DIR="/media/mmc1/DCIM"

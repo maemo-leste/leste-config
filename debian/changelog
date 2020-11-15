@@ -1,3 +1,9 @@
+leste-config (1.20-1) unstable; urgency=medium
+
+  * common: preinst to postinst
+
+ -- Ivan J. <parazyd@dyne.org>  Sun, 15 Nov 2020 16:52:21 +0100
+
 leste-config (1.19-1) unstable; urgency=medium
 
   * Add dependency on hildon-base.

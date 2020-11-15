@@ -7,7 +7,7 @@ Standards-Version: 4.3.0
 
 Package: leste-config-common
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, hildon-base
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Maemo Leste configurations - Common

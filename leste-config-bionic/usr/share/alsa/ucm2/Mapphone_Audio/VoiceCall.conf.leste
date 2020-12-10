@@ -1,0 +1,92 @@
+SectionVerb {
+	EnableSequence [
+		cset "name='Lineout Left Playback Route' off"
+		cset "name='Lineout Right Playback Route' off"
+		cset "name='EMU Left Playback Route' off"
+		cset "name='EMU Right Playback Route' off"
+		cset "name='Earpiece Playback Route' off"
+		cset "name='Ext Left Enable Switch' off"
+		cset "name='Ext Left Phase Invert Switch' off"
+		cset "name='Ext Mono Playback Switch' off"
+		cset "name='Ext Playback Volume' 0"
+		cset "name='Call Volume' 3"
+		cset "name='Call Volume' 3"
+		cset "name='Ext Right Enable Switch' off"
+		cset "name='Headset Left Playback Route' off"
+		cset "name='Headset Right Playback Route' off"
+		cset "name='HiFi Mono Playback Switch' off"
+		cset "name='Hifi Left Phase Invert Switch' off"
+		cset "name='Left Capture Route' off"
+		cset "name='Right Capture Route' off"
+		cset "name='Speaker Left Playback Route' off"
+		cset "name='Speaker Right Playback Route' off"
+		cset "name='Voice Loopback Switch' off"
+		cset "name='Voice Playback Volume' 3"
+	]
+
+	Value {
+		PlaybackPCM "hw:${CardId},0"
+		CapturePCM "hw:${CardId},0"
+	}
+}
+
+SectionDevice."Speaker" {
+	Comment "Internal speaker"
+	EnableSequence [
+		cset "name='Call Noise Cancellation' on"
+		cset "name='Call Output' Speakerphone"
+		cset "name='Speaker Right Playback Route' Voice"
+	]
+
+	DisableSequence [
+		cset "name='Call Noise Cancellation' off"
+		cset "name='Speaker Right Playback Route' off"
+	]
+
+	Value {
+		PlaybackVolume "Call Volume"
+		PlaybackChannels 2
+		PlaybackPriority 300
+		PlaybackPCM "hw:${CardId},0"
+	}
+}
+SectionDevice."Earpiece" {
+	Comment "Internal Earpiece"
+	EnableSequence [
+		cset "name='Call Noise Cancellation' on"
+		cset "name='Call Output' Handset"
+		cset "name='Earpiece Playback Route' Voice"
+	]
+
+	DisableSequence [
+		cset "name='Earpiece Playback Route' off"
+		cset "name='Call Noise Cancellation' off"
+	]
+
+	Value {
+		PlaybackVolume "Call Volume"
+		PlaybackChannels 2
+		PlaybackPriority 200
+		PlaybackPCM "hw:${CardId},0"
+	}
+}
+SectionDevice."Headphones" {
+	Comment "Headset"
+	EnableSequence [
+		cset "name='Call Output' Headset"
+		cset "name='Headset Left Playback Route' Voice"
+		cset "name='Headset Right Playback Route' Voice"
+	]
+
+	DisableSequence [
+		cset "name='Headset Left Playback Route' off"
+		cset "name='Headset Right Playback Route' off"
+	]
+
+	Value {
+		PlaybackVolume "Call Volume"
+		PlaybackChannels 2
+		PlaybackPriority 100
+		PlaybackPCM "hw:${CardId},0"
+	}
+}

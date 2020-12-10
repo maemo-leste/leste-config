@@ -9,3 +9,6 @@
 /lib/udev/rules.d/55-modem.rules.leste
 /usr/share/X11/xorg.conf.d/40-ts.conf.leste
 /usr/share/X11/xorg.conf.d/99-omap.conf.leste
+/usr/share/alsa/ucm2/Mapphone_Audio/HiFi.conf.leste
+/usr/share/alsa/ucm2/Mapphone_Audio/Mapphone_Audio.conf.leste
+/usr/share/alsa/ucm2/Mapphone_Audio/VoiceCall.conf.leste

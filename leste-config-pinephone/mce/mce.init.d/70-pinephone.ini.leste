@@ -11,3 +11,8 @@ ModulesDevice=led-sw;led-dbus;iio-accelerometer;iio-als;evdevvibrator;iio-proxim
 RedSysfs=red:indicator
 GreenSysfs=green:indicator
 BlueSysfs=blue:indicator
+
+[Vibrator]
+
+PatternPowerKeyPress=5;5;1;1;0;50;0;50;128
+PatternTouchscreen= 10;3;0;1;50;10;15;50;255

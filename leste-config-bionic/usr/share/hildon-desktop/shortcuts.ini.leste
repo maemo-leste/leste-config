@@ -1,0 +1,9 @@
+[Shortcuts]
+LeftButton=F10
+MiddleButton=F9
+RightButton=F11
+RaiseVkb=XF86Search
+Xterm=<shift><ctrl>x
+Unredirect=<shift><ctrl>n
+Screenshot=<shift><ctrl>p
+Portraitable=<shift><ctrl>r

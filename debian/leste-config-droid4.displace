@@ -11,4 +11,5 @@
 /usr/share/alsa/ucm2/Mapphone_Audio/Mapphone_Audio.conf.leste
 /usr/share/alsa/ucm2/Mapphone_Audio/VoiceCall.conf.leste
 /usr/share/X11/xorg.conf.d/40-ts.conf.leste
+/usr/share/hildon-dekstop/shortcuts.ini.leste
 /usr/share/X11/xorg.conf.d/99-omap.conf.leste

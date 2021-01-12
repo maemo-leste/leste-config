@@ -47,7 +47,7 @@ Description: Maemo Leste configurations - Droid Bionic
 Package: leste-config-pinephone
 Architecture: all
 Section: pinephone
-Depends: ${misc:Depends}, leste-config-common
+Depends: ${misc:Depends}, leste-config-common, iw
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Maemo Leste configurations - Pinephone
@@ -57,7 +57,7 @@ Description: Maemo Leste configurations - Pinephone
 Package: leste-config-pinetab
 Architecture: all
 Section: pinephone
-Depends: ${misc:Depends}, leste-config-common
+Depends: ${misc:Depends}, leste-config-common, iw
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Maemo Leste configurations - Pinetab

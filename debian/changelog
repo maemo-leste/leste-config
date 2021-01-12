@@ -1,3 +1,10 @@
+leste-config (1.27-1) unstable; urgency=medium
+
+  * Add profile.d to export XDG_RUNTIME_DIR
+  * pinephone: Clean up old ucm2 directory with postinst.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 12 Jan 2021 14:17:36 +0100
+
 leste-config (1.26-1) unstable; urgency=medium
 
   * Update displace files.

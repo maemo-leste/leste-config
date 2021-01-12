@@ -1,3 +1,17 @@
+leste-config (1.26-1) unstable; urgency=medium
+
+  * Update displace files.
+  * Add dependency on "iw" for Pine64 devices.
+  * pinephone: Add udev modem rules.
+  * pinephone: Disable kernel sysrq.
+  * pinephone: Add asound.conf from pmOS.
+  * pinephone: Add (disabled) wifi-pm udev rules from pmOS.
+  * pinephone: Pdd proximity sensor rule for iio-sensors in udev.
+  * Update PinePhone UCM2 files.
+  * add hildon desktop shortcut configuration to various devices
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 12 Jan 2021 11:56:20 +0100
+
 leste-config (1.25-1) unstable; urgency=medium
 
   * pinephone: Add vibration

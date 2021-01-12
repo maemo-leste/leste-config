@@ -3,6 +3,7 @@
 echo "Updating udev hwdb"
 udevadm hwdb --update
 udevadm trigger
+/usr/bin/hildon-desktop-rotate-touchscreen.sh || true
 
 # Clean up old files...
 rm -f /etc/X11/xorg.conf.d/40-input.conf

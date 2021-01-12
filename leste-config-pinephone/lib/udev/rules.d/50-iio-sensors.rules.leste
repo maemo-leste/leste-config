@@ -1,1 +1,5 @@
+# Touchscreen mount matrix
 SUBSYSTEM=="iio", ENV{OF_NAME}=="mpu6050", ENV{ACCEL_MOUNT_MATRIX}="1, 0, 0; 0, 1, 0; 0, 0, 1"
+
+# Proximity sensor
+ACTION=="add", SUBSYSTEM=="iio", TEST=="in_proximity_raw", ENV{PROXIMITY_NEAR_LEVEL}="250"

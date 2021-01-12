@@ -2,6 +2,7 @@
 /etc/network/interfaces.leste
 /etc/osso-af-init/sdl.defs.leste
 /etc/profile.d/qt-maemo.sh.leste
+/etc/profile.d/xdg-runtime.sh.leste
 /etc/sysctl.d/nosysrq.conf.leste
 /etc/wpa_supplicant/wpa_supplicant.conf.leste
 /home/user/.config/user-dirs.dirs.leste

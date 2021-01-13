@@ -1,3 +1,10 @@
+leste-config (1.28-1) unstable; urgency=medium
+
+  * Export XDG_RUNTIME_DIR only for user.
+  * droid4: Mitigate broken rotation after udevadm trigger.
+
+ -- Ivan J. <parazyd@dyne.org>  Wed, 13 Jan 2021 01:08:03 +0100
+
 leste-config (1.27-1) unstable; urgency=medium
 
   * Add profile.d to export XDG_RUNTIME_DIR

@@ -24,6 +24,15 @@ Description: Maemo Leste configurations - N900
  This package contains configuration files for Maemo
  Leste on the Nokia N900.
 
+Package: leste-config-mapphone
+Architecture: all
+Depends: ${misc:Depends}, leste-config-bionic | leste-config-droid4
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Maemo Leste common configurations - Droid4+Bionic
+ This package contains common configuration files for 
+ Maemo Leste on the Motorola Droid4 and Bionic.
+
 Package: leste-config-droid4
 Architecture: all
 Section: droid4

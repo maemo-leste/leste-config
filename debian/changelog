@@ -1,3 +1,9 @@
+leste-config (1.29-1) unstable; urgency=medium
+
+  * Add a sleep in droid4 postinst so udevadm settles.
+
+ -- Ivan J. <parazyd@dyne.org>  Thu, 14 Jan 2021 13:56:51 +0100
+
 leste-config (1.28-1) unstable; urgency=medium
 
   * Export XDG_RUNTIME_DIR only for user.

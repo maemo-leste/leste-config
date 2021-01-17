@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ "x$(id)" = "xuser" ]; then
+if [ "x$(id -u)" = "x1000" ]; then
 	XDG_RUNTIME_DIR="/run/user/$(id -u)"
 	export XDG_RUNTIME_DIR
 fi

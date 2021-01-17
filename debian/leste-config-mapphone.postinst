@@ -1,9 +1,7 @@
 #!/bin/sh
 
 # Clean up old files.
-rm -f /etc/X11/xorg.conf.d/40-input.conf
-rm -f /etc/X11/xorg.conf.d
-rm -f /etc/X11/xorg.conf.d/99-omap.conf
+rm -rf /etc/X11/xorg.conf.d
 rm -f /etc/udev/rules.d/55-modem.rules
 
 echo "Updating udev hwdb"

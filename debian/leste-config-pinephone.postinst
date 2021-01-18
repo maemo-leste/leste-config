@@ -1,8 +1,7 @@
 #!/bin/sh
 
-#udevadm trigger
-
-# Clean up old files...
-rm -rf /usr/share/alsa/ucm2/sun50i-a64-audio/
+rm -rf /usr/share/alsa/ucm2/sun50i-a64-audio
 
 #DEBHELPER#
+
+exit 0

@@ -1,3 +1,9 @@
+leste-config (1.32-1) unstable; urgency=medium
+
+  * Export XDG_RUNTIME_DIR for everyone.
+
+ -- Ivan J. <parazyd@dyne.org>  Mon, 18 Jan 2021 11:12:43 +0100
+
 leste-config (1.31-1) unstable; urgency=medium
 
   * Fix bug in xdg-runtime export.

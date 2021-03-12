@@ -1,0 +1,8 @@
+Section "InputClass"
+        Identifier "calibration"
+        MatchProduct "fts_ts"
+        Option "TypeName" "TOUCHSCREEN"
+        Option "IgnoreAbsoluteAxes" "off"
+        Option "IgnoreRelativeAxes" "on"
+        Option "Calibration" "0 1080 100 2346"
+EndSection

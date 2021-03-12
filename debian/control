@@ -72,3 +72,13 @@ Conflicts: ${diverted-files}
 Description: Maemo Leste configurations - Pinetab
  This package contains configuration files for Maemo
  Leste on the Pine64 Pinetab.
+
+Package: leste-config-pocophone-f1
+Architecture: all
+Section: pocophone-f1
+Depends: ${misc:Depends}, leste-config-common, iw
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Maemo Leste configurations - Xiaomi Pocophone F1
+ This package contains configuration files for Maemo
+ Leste on the Xiaomi Pocophone F1.

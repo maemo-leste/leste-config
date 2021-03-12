@@ -1,0 +1,17 @@
+#!/bin/sh
+
+rm -f /etc/X11/xorg.conf.d/40-input.conf
+rm -f /usr/share/X11/xorg.conf.d/40-ts.conf
+
+echo "Updating udev hwdb"
+udevadm hwdb --update
+udevadm trigger
+
+# Let udevadm settle
+sleep 3
+# Refresh touchscreen rotation which gets borked on udevadm trigger.
+/usr/bin/hildon-desktop-rotate-touchscreen.sh 2>/dev/null || true
+
+#DEBHELPER#
+
+exit 0

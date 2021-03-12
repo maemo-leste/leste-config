@@ -1,0 +1,2 @@
+/usr/share/X11/xorg.conf.d/40-ts.conf.leste
+/etc/X11/Xsession.d/10xrandr-poco.leste

@@ -1,0 +1,3 @@
+# Initscript conf.d file for gpsd.
+
+GPSD_DEVICES="/dev/gnss0"

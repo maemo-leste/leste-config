@@ -1,3 +1,9 @@
+leste-config (1.33-1) unstable; urgency=medium
+
+  * Add conf.d/gpsd for mapphone.
+
+ -- Ivan J. <parazyd@dyne.org>  Sat, 13 Mar 2021 18:40:51 +0100
+
 leste-config (1.32-1) unstable; urgency=medium
 
   * Export XDG_RUNTIME_DIR for everyone.

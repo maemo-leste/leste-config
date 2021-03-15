@@ -1,3 +1,9 @@
+leste-config (1.40-1) unstable; urgency=medium
+
+  * Add leste-config-pocophone-f1 package
+
+ -- Ivan J. <parazyd@dyne.org>  Mon, 15 Mar 2021 15:24:33 +0100
+
 leste-config (1.33-1) unstable; urgency=medium
 
   * Add conf.d/gpsd for mapphone.

@@ -1,4 +1,0 @@
-Section "InputClass"
-	Identifier "calibration"
-	MatchProduct "Goodix Capacitive TouchScreen"
-EndSection

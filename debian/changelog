@@ -1,3 +1,15 @@
+leste-config (1.41-1) unstable; urgency=medium
+
+  * mapphones: add directfb configuration
+  * Update mapphone displace file.
+  * pinetab: force evdev driver for touchscreen
+  * n900: force evdev for touchscreen
+  * Pinephone: drop 40-input.conf.leste
+  * mapphones: switch from xinput-evdev to xinput-libinput and configure libinput for all display servers.
+  * Set MAC address only when really necessary
+
+ -- Ivan J. <parazyd@dyne.org>  Sat, 01 May 2021 17:03:42 +0200
+
 leste-config (1.40-1) unstable; urgency=medium
 
   * Add leste-config-pocophone-f1 package

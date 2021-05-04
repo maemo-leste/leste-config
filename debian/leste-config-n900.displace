@@ -1,3 +1,4 @@
+/etc/conf.d/gpsd.leste
 /etc/default/keyboard.leste
 /etc/mce/mce.ini.d/70-n900.ini.leste
 /etc/modprobe.d/nokia-modem.conf.leste

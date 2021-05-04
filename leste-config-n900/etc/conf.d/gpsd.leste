@@ -1,0 +1,12 @@
+# Initscript conf.d file for gpsd.
+
+GPSD_DEVICES="/tmp/gps_source"
+
+rc_need="gps-nokia-n900"
+
+start_pre() {
+	if ! [ -e "$GPSD_DEVICES" ]; then
+		eerror "$GPSD_DEVICES nonexistent. Did gps-nokia-n900 start?"
+		return 1
+	fi
+}

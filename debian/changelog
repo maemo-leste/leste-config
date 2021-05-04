@@ -1,3 +1,9 @@
+leste-config (1.44-1) unstable; urgency=medium
+
+  * n900: Give gps-nokia-n900 a bit of time to settle.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 04 May 2021 09:59:14 +0200
+
 leste-config (1.43-1) unstable; urgency=medium
 
   * having input devices that dont exist in directfbrc breaks

@@ -1,3 +1,9 @@
+leste-config (1.42-1) unstable; urgency=medium
+
+  * n900: Add gpsd conf.d file.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 04 May 2021 03:01:16 +0200
+
 leste-config (1.41-1) unstable; urgency=medium
 
   * mapphones: add directfb configuration

@@ -5,6 +5,9 @@ GPSD_DEVICES="/tmp/gps_source"
 rc_need="gps-nokia-n900"
 
 start_pre() {
+	# Give gps-nokia-n900 a bit of time to settle
+	sleep 2
+
 	if ! [ -e "$GPSD_DEVICES" ]; then
 		eerror "$GPSD_DEVICES nonexistent. Did gps-nokia-n900 start?"
 		return 1

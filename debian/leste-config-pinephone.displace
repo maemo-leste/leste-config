@@ -2,6 +2,7 @@
 /etc/hildon-desktop.env.leste
 /etc/sysctl.d/sysrq.conf.leste
 /lib/udev/rules.d/50-iio-sensors.rules.leste
+/lib/udev/rules.d/60-flashlight.rules.leste
 /lib/udev/rules.d/70-wifi-pm.rules.leste
 /lib/udev/rules.d/90-modem-eg25.rules.leste
 /mce/mce.init.d/70-pinephone.ini.leste

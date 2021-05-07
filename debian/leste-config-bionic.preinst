@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ -f /boot/boot/boot.cfg ]; then
+	mv /boot/boot/boot.cfg /boot/boot/boot.cfg.orig-before-leste-config
+fi
+
+#DEBHELPER#

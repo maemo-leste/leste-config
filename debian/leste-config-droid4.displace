@@ -1,2 +1,3 @@
+/boot/boot/boot.cfg.leste
 /etc/mce/mce.ini.d/70-droid4.ini.leste
 /lib/udev/rules.d/50-iio-sensors.rules.leste

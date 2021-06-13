@@ -40,6 +40,7 @@ SectionDevice."Speaker" {
 
 	DisableSequence [
 		cset "name='Speaker Right Playback Route' off"
+		cset "name='HiFi Mono Playback Switch' off"
 	]
 
 	Value {
@@ -59,6 +60,7 @@ SectionDevice."Earpiece" {
 
 	DisableSequence [
 		cset "name='Earpiece Playback Route' off"
+		cset "name='HiFi Mono Playback Switch' off"
 	]
 
 	Value {

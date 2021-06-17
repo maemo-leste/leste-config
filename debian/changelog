@@ -1,3 +1,9 @@
+leste-config (1.46-1) unstable; urgency=medium
+
+  * Mapphones: switch away from mono mode on exiting internal speaker hifi output
+
+ -- Ivan J. <parazyd@dyne.org>  Thu, 17 Jun 2021 12:16:11 +0200
+
 leste-config (1.45-1) unstable; urgency=medium
 
   * resore ctrl-backspace on n900

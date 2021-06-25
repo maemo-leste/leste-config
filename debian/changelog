@@ -1,3 +1,9 @@
+leste-config (1.47-1) unstable; urgency=medium
+
+  * pinephone: Fix mce config path.
+
+ -- Ivan J. <parazyd@dyne.org>  Fri, 25 Jun 2021 10:55:20 +0200
+
 leste-config (1.46-1) unstable; urgency=medium
 
   * Mapphones: switch away from mono mode on exiting internal speaker hifi output

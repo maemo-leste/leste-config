@@ -1,0 +1,5 @@
+# Initscript conf.d file for gpsd.
+
+GPSD_DEVICES="/dev/EG25.NMEA"
+
+rc_need="eg25"

@@ -1,4 +1,5 @@
 /etc/asound.conf.leste
+/etc/conf.d/gpsd.leste
 /etc/hildon-desktop.env.leste
 /etc/mce/mce.ini.d/70-pinephone.ini.leste
 /etc/sysctl.d/sysrq.conf.leste

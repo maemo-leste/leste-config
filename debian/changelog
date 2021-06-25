@@ -1,3 +1,9 @@
+leste-config (1.50-1) unstable; urgency=medium
+
+  * Update debian/changelog.
+
+ -- Ivan J. <parazyd@dyne.org>  Fri, 25 Jun 2021 12:14:16 +0200
+
 leste-config (1.49-1) unstable; urgency=medium
 
   * pinephone: Add conf.d file for gpsd.

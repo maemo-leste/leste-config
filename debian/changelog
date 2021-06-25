@@ -1,3 +1,9 @@
+leste-config (1.49-1) unstable; urgency=medium
+
+  * pinephone: Add conf.d file for gpsd.
+
+ -- Ivan J. <parazyd@dyne.org>  Fri, 25 Jun 2021 11:56:37 +0200
+
 leste-config (1.48-1) unstable; urgency=medium
 
   * Update displace files.

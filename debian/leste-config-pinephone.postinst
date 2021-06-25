@@ -1,6 +1,7 @@
 #!/bin/sh
 
 rm -rf /usr/share/alsa/ucm2/sun50i-a64-audio
+rm -rf /mce
 
 #DEBHELPER#
 

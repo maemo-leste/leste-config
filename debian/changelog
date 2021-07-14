@@ -1,3 +1,10 @@
+leste-config (1.51-1) unstable; urgency=medium
+
+  * pinephone: Sort out some more files.
+  * pinephone: Update ucm2 files.
+
+ -- Ivan J. <parazyd@dyne.org>  Wed, 14 Jul 2021 11:03:52 +0200
+
 leste-config (1.50-1) unstable; urgency=medium
 
   * Update debian/changelog.

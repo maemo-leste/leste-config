@@ -2,6 +2,7 @@
 
 rm -rf /usr/share/alsa/ucm2/sun50i-a64-audio
 rm -rf /mce
+rm -f /etc/asound.conf.leste /etc/asound.conf
 
 #DEBHELPER#
 

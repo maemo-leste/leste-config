@@ -10,7 +10,6 @@ SectionVerb {
 		cset "name='Ext Mono Playback Switch' off"
 		cset "name='Ext Playback Volume' 0"
 		cset "name='Call Volume' 3"
-		cset "name='Call Volume' 3"
 		cset "name='Ext Right Enable Switch' off"
 		cset "name='Headset Left Playback Route' off"
 		cset "name='Headset Right Playback Route' off"
@@ -21,7 +20,7 @@ SectionVerb {
 		cset "name='Speaker Left Playback Route' off"
 		cset "name='Speaker Right Playback Route' off"
 		cset "name='Voice Loopback Switch' off"
-		cset "name='Voice Playback Volume' 3"
+		cset "name='Voice Playback Volume' 9"
 	]
 
 	Value {

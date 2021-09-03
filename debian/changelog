@@ -1,3 +1,9 @@
+leste-config (1.52-1) unstable; urgency=medium
+
+  * remove all calls to hildon-desktop-rotate-touchscreen.sh
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Fri, 03 Sep 2021 10:43:23 +0300
+
 leste-config (1.51-1) unstable; urgency=medium
 
   * pinephone: Sort out some more files.

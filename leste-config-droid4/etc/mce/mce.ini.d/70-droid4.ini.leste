@@ -4,7 +4,7 @@
 
 [Modules]
 
-ModulesDevice=led-sw;led-dbus;button-backlight;iio-accelerometer;iio-als;evdevvibrator;iio-proximity
+ModulesDevice=led-sw;led-dbus;button-backlight;iio-accelerometer;iio-als;evdevvibrator;iio-proximity;quirks-mapphone
 
 [Backlights]
 

@@ -36,4 +36,4 @@ PatternPowerKeyPress=5;5;1;1;0;50;0;50;128
 PatternTouchscreen= 10;3;0;1;50;10;15;50;255
 
 [Battery]
-CriticalVoltage=3350
+CriticalVoltage=3200

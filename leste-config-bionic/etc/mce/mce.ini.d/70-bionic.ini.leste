@@ -4,7 +4,7 @@
 
 [Modules]
 
-ModulesDevice=led-sw;led-dbus;iio-accelerometer;iio-als;evdevvibrator;iio-proximity
+ModulesDevice=led-sw;led-dbus;iio-accelerometer;iio-als;evdevvibrator;iio-proximity;quirks-mapphone;battery-guard
 
 [IioAls]
 
@@ -20,4 +20,7 @@ BlueSysfs=status-led:blue
 # hardcoded in cpcap-charger.ko, so disabled here
 PatternBatteryCharging=50;3;0;0;0;0;0;0
 PatternBatteryFull=40;3;0;0;0;0;0;0
+
+[Battery]
+CriticalVoltage=3350
 

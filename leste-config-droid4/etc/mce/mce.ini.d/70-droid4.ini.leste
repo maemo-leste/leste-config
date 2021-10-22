@@ -4,7 +4,7 @@
 
 [Modules]
 
-ModulesDevice=led-sw;led-dbus;button-backlight;iio-accelerometer;iio-als;evdevvibrator;iio-proximity
+ModulesDevice=led-sw;led-dbus;button-backlight;iio-accelerometer;iio-als;evdevvibrator;iio-proximity;quirks-mapphone;battery-guard
 
 [Backlights]
 
@@ -36,3 +36,5 @@ BlueSysfs=status-led:blue
 PatternBatteryCharging=50;3;0;0;0;0;0;0
 PatternBatteryFull=40;3;0;0;0;0;0;0
 
+[Battery]
+CriticalVoltage=3350

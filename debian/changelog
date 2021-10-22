@@ -1,3 +1,11 @@
+leste-config (1.54-1) unstable; urgency=medium
+
+  * Add quirks-mapphone to mce config
+  * Add battery guard config for mapphone and n900
+  * Add directfb config for chargemode on n900
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 22 Oct 2021 10:49:02 +0200
+
 leste-config (1.53-1) unstable; urgency=medium
 
   * Raise in-call volume for mapphones

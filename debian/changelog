@@ -1,3 +1,9 @@
+leste-config (1.57-1) unstable; urgency=medium
+
+  * Fix Droid 3 orientation
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 30 Dec 2021 14:02:06 +0100
+
 leste-config (1.56-1) unstable; urgency=medium
 
   * Fix PinePhone orientation

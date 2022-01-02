@@ -1,3 +1,9 @@
+leste-config (1.58-1) unstable; urgency=medium
+
+  * Enable omap DDX "ManualUpdate" option for mapphones
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Sun, 02 Jan 2022 10:24:11 +0200
+
 leste-config (1.57-1) unstable; urgency=medium
 
   * Fix Droid 3 orientation

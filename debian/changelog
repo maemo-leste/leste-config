@@ -1,3 +1,33 @@
+leste-config (1.59-1) unstable; urgency=medium
+
+  * Add ts buttons light to mce
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 09 Jan 2022 18:18:23 +0100
+
+leste-config (1.58-1) unstable; urgency=medium
+
+  * Enable omap DDX "ManualUpdate" option for mapphones
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Sun, 02 Jan 2022 10:24:11 +0200
+
+leste-config (1.57-1) unstable; urgency=medium
+
+  * Fix Droid 3 orientation
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 30 Dec 2021 14:02:06 +0100
+
+leste-config (1.56-1) unstable; urgency=medium
+
+  * Fix PinePhone orientation
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Tue, 21 Dec 2021 12:29:28 +0100
+
+leste-config (1.55-1) unstable; urgency=medium
+
+  * Add droid3
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Mon, 29 Nov 2021 12:33:49 +0100
+
 leste-config (1.54-1) unstable; urgency=medium
 
   * Add quirks-mapphone to mce config

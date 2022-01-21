@@ -1,9 +1,10 @@
 /etc/dbus-1/system.d/ofono.conf.leste
-/etc/network/interfaces.leste
-/etc/osso-af-init/sdl.defs.leste
-/etc/profile.d/qt-maemo.sh.leste
-/etc/profile.d/gtk-maemo.sh.leste
 /etc/gtk-3.0/settings.ini.leste
+/etc/network/interfaces.leste
+/etc/no_lg_reboots.leste
+/etc/osso-af-init/sdl.defs.leste
+/etc/profile.d/gtk-maemo.sh.leste
+/etc/profile.d/qt-maemo.sh.leste
 /etc/profile.d/xdg-runtime.sh.leste
 /etc/sysctl.d/nosysrq.conf.leste
 /etc/wpa_supplicant/wpa_supplicant.conf.leste

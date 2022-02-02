@@ -1,6 +1,6 @@
 /etc/conf.d/gpsd.leste
-/etc/directfbrc.leste
 /etc/default/keyboard.leste
+/etc/directfbrc.leste
 /etc/mce/mce.ini.d/70-n900.ini.leste
 /etc/modprobe.d/nokia-modem.conf.leste
 /etc/modules-load.d/nokia-modem.conf.leste
@@ -10,4 +10,5 @@
 /usr/share/hildon-desktop/shortcuts.ini.leste
 /usr/share/X11/xorg.conf.d/40-xkb.conf.leste
 /usr/share/X11/xorg.conf.d/99-calibration.conf.leste
+/usr/share/X11/xorg.conf.d/99-omap.conf.leste
 /var/lib/alsa/asound.state.leste

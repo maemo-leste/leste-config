@@ -9,5 +9,6 @@
 /etc/sysctl.d/nosysrq.conf.leste
 /etc/wpa_supplicant/wpa_supplicant.conf.leste
 /home/user/.config/user-dirs.dirs.leste
+/usr/sbin/policy-rc.d.leste
 /usr/share/alsa/ucm2/ucm.conf.leste
 /usr/share/hildon-input-method/himrc.leste

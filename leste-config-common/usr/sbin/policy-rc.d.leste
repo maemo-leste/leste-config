@@ -1,21 +1,32 @@
 #!/usr/bin/env python
+from __future__ import print_function
 import sys
 
 # TODO: Support reading this from a directory
 
-blacklist = ['dsme',  # We don't want to ever restart dsme
+blacklist_restart = [
+    'dsme',  # We don't want to ever restart dsme
     'ofono', # This will make us lose modem connection
     'icd2', # User can restart this manually, but let's not do that upon updates
     'hildon-desktop', # stop/restart is a no-op anyway
     'xsession', # stop doesn't work
-    'xorg' # let's not attempt to restart this :-)
+    'xorg', # let's not attempt to restart this :-)
+]
+
+blacklist_start = [
+    'tor', # We start this ourselves via icd2
 ]
 
 initscript = sys.argv[1]
 action = sys.argv[2]
 runlevel = sys.argv[3]
 
-if action in ('restart',) and initscript in blacklist:
+if action in ('restart', '(restart)') and initscript in blacklist_restart:
+    print('Denying restart for %s' % initscript, file=sys.stderr)
+    sys.exit(101)
+
+if action in ('start', '(start)') and initscript in blacklist_start:
+    print('Denying start for %s' % initscript, file=sys.stderr)
     sys.exit(101)
 
 sys.exit(0)

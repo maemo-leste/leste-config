@@ -1,3 +1,9 @@
+leste-config (1.63-1) unstable; urgency=medium
+
+  * Prevent certain services from restarting during upgrade
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 03 Feb 2022 16:53:35 +0100
+
 leste-config (1.62-1) unstable; urgency=medium
 
   * Remove directfb files for n900 / mapphones

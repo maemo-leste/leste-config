@@ -1,3 +1,9 @@
+leste-config (1.65-1) unstable; urgency=medium
+
+  * Fix PinePhone audio, rename ucm2 dir
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 05 Feb 2022 16:41:30 +0100
+
 leste-config (1.64-1) unstable; urgency=medium
 
   * More robust version of policy-rc.d

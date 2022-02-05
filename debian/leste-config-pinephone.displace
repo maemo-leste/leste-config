@@ -7,7 +7,7 @@
 /lib/udev/rules.d/60-flashlight.rules.leste
 /lib/udev/rules.d/70-wifi-pm.rules.leste
 /lib/udev/rules.d/90-modem-eg25.rules.leste
-/usr/share/alsa/ucm2/PinePhone/HiFi.conf.leste
-/usr/share/alsa/ucm2/PinePhone/PinePhone.conf.leste
-/usr/share/alsa/ucm2/PinePhone/VoiceCall.conf.leste
+/usr/share/alsa/ucm2/simple-card/HiFi.conf.leste
+/usr/share/alsa/ucm2/simple-card/PinePhone.conf.leste
+/usr/share/alsa/ucm2/simple-card/VoiceCall.conf.leste
 /usr/share/hildon-desktop/shortcuts.ini.leste

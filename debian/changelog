@@ -1,3 +1,9 @@
+leste-config (1.66-1) unstable; urgency=medium
+
+  * Add maemo specific rsyslog.d rules
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 05 Feb 2022 17:25:22 +0100
+
 leste-config (1.65-1) unstable; urgency=medium
 
   * Fix PinePhone audio, rename ucm2 dir

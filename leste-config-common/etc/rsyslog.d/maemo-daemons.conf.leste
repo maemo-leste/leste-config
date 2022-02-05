@@ -1,0 +1,35 @@
+if $programname == 'icd2' then /var/log/test/icd2.log
+& stop
+
+if $programname == 'maemo-launcher' then /var/log/test/icd2.log
+& stop
+
+if $programname == 'mce' then /var/log/test/mce.log
+& stop
+
+if $programname == 'ke_recv' then /var/log/test/ke_recv.log
+& stop
+
+if $programname == 'ofonod' then /var/log/test/ofonod.log
+& stop
+
+if $programname == 'wpa_supplicant' then /var/log/test/wpa_supplicant.log
+& stop
+
+if $programname == 'maemo-launcher' then /var/log/test/maemo-launcher.log
+& stop
+
+if $programname == 'system-ui' then /var/log/test/system-ui.log
+& stop
+
+if $programname == 'hildon-home' then /var/log/test/hildon-home.log
+& stop
+
+if $programname == 'hildon-status-menu' then /var/log/test/hildon-status-menu.log
+& stop
+
+if $programname == 'iap_conndlg' then /var/log/test/iap_conndlg.log
+& stop
+
+if $programname == 'DSME' then /var/log/test/dsme.log
+& stop

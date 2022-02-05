@@ -6,6 +6,7 @@
 /etc/profile.d/gtk-maemo.sh.leste
 /etc/profile.d/qt-maemo.sh.leste
 /etc/profile.d/xdg-runtime.sh.leste
+/etc/rsyslog.d/maemo-daemons.conf.leste
 /etc/sysctl.d/nosysrq.conf.leste
 /etc/wpa_supplicant/wpa_supplicant.conf.leste
 /home/user/.config/user-dirs.dirs.leste

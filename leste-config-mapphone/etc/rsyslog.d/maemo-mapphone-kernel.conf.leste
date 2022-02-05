@@ -1,0 +1,4 @@
+# Debug gsm
+
+:msg, contains, "gsd_receive_buf" /var/log/maemo/modem.log
+:msg, contains, "gsm_data_kick" /var/log/maemo/modem.log

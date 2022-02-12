@@ -7,6 +7,9 @@
 /etc/profile.d/libsdl.sh.leste
 /etc/profile.d/qt-maemo.sh.leste
 /etc/profile.d/xdg-runtime.sh.leste
+/etc/pulse/daemon.conf.d/00-leste.conf.leste
+/etc/pulse/leste.pa.d/00-default.pa.leste
+/etc/pulse/leste.pa.leste
 /etc/rsyslog.d/maemo-daemons.conf.leste
 /etc/sysctl.d/nosysrq.conf.leste
 /etc/wpa_supplicant/wpa_supplicant.conf.leste

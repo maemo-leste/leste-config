@@ -4,6 +4,7 @@
 /etc/no_lg_reboots.leste
 /etc/osso-af-init/sdl.defs.leste
 /etc/profile.d/gtk-maemo.sh.leste
+/etc/profile.d/libsdl.sh.leste
 /etc/profile.d/qt-maemo.sh.leste
 /etc/profile.d/xdg-runtime.sh.leste
 /etc/rsyslog.d/maemo-daemons.conf.leste

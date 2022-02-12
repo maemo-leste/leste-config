@@ -1,0 +1,2 @@
+export SDL_VIDEO_X11_FORCE_EGL=1
+export SDL_RENDER_DRIVER=opengles2

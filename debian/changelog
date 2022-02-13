@@ -1,3 +1,10 @@
+leste-config (1.68-1) unstable; urgency=medium
+
+  * Add pulseaudio setup (default sink, switch on port)
+  * Add libsdl environment variables
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 13 Feb 2022 09:41:13 +0100
+
 leste-config (1.67-1) unstable; urgency=medium
 
   * Add debugfs for mapphones

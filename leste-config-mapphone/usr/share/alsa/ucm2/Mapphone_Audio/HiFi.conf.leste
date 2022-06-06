@@ -13,7 +13,7 @@ SectionVerb {
 		cset "name='Headset Left Playback Route' off"
 		cset "name='Headset Right Playback Route' off"
 		cset "name='HiFi Mono Playback Switch' off"
-		cset "name='HiFi Playback Volume' 5"
+		cset "name='HiFi Playback Volume' 8"
 		cset "name='Call Volume' 0"
 		cset "name='Hifi Left Phase Invert Switch' off"
 		cset "name='Left Capture Route' off"

@@ -22,6 +22,8 @@ SectionVerb {
 		cset "name='Speaker Right Playback Route' off"
 		cset "name='Voice Loopback Switch' off"
 		cset "name='Voice Playback Volume' 4"
+		cset "name='Mic1 Capture Volume' 0"
+		cset "name='Mic2 Capture Volume' 0"
 	]
 
 	Value {

@@ -21,6 +21,8 @@ SectionVerb {
 		cset "name='Speaker Right Playback Route' off"
 		cset "name='Voice Loopback Switch' off"
 		cset "name='Voice Playback Volume' 9"
+		cset "name='Mic1 Capture Volume' 15"
+		cset "name='Mic2 Capture Volume' 15"
 	]
 
 	Value {
@@ -29,37 +31,19 @@ SectionVerb {
 	}
 }
 
-SectionDevice."Speaker" {
-	Comment "Internal speaker"
-	EnableSequence [
-		cset "name='Call Noise Cancellation' on"
-		cset "name='Call Output' Speakerphone"
-		cset "name='Speaker Right Playback Route' Voice"
-	]
-
-	DisableSequence [
-		cset "name='Call Noise Cancellation' off"
-		cset "name='Speaker Right Playback Route' off"
-	]
-
-	Value {
-		PlaybackVolume "Call Volume"
-		PlaybackChannels 2
-		PlaybackPriority 300
-		PlaybackPCM "hw:${CardId},0"
-	}
-}
 SectionDevice."Earpiece" {
 	Comment "Internal Earpiece"
 	EnableSequence [
 		cset "name='Call Noise Cancellation' on"
 		cset "name='Call Output' Handset"
 		cset "name='Earpiece Playback Route' Voice"
+		cset "name='Right Capture Route' 'Mic 1'"
 	]
 
 	DisableSequence [
 		cset "name='Earpiece Playback Route' off"
 		cset "name='Call Noise Cancellation' off"
+		cset "name='Right Capture Route' off"
 	]
 
 	Value {
@@ -69,17 +53,41 @@ SectionDevice."Earpiece" {
 		PlaybackPCM "hw:${CardId},0"
 	}
 }
+SectionDevice."Speaker" {
+	Comment "Internal speaker"
+	EnableSequence [
+		cset "name='Call Noise Cancellation' on"
+		cset "name='Call Output' Speakerphone"
+		cset "name='Speaker Right Playback Route' Voice"
+		cset "name='Left Capture Route' 'Mic 2'"
+	]
+
+	DisableSequence [
+		cset "name='Call Noise Cancellation' off"
+		cset "name='Speaker Right Playback Route' off"
+		cset "name='Left Capture Route' off"
+	]
+
+	Value {
+		PlaybackVolume "Call Volume"
+		PlaybackChannels 2
+		PlaybackPriority 300
+		PlaybackPCM "hw:${CardId},0"
+	}
+}
 SectionDevice."Headphones" {
 	Comment "Headset"
 	EnableSequence [
 		cset "name='Call Output' Headset"
 		cset "name='Headset Left Playback Route' Voice"
 		cset "name='Headset Right Playback Route' Voice"
+		cset "name='Right Capture Route' 'Mic 1'"
 	]
 
 	DisableSequence [
 		cset "name='Headset Left Playback Route' off"
 		cset "name='Headset Right Playback Route' off"
+		cset "name='Right Capture Route' off"
 	]
 
 	Value {

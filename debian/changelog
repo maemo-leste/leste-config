@@ -1,3 +1,10 @@
+leste-config (1.70-1) unstable; urgency=medium
+
+  * Add pulseaudio-based noise cancelling sink/source, tested with SIP calls
+    to avoid modems messing wiht the audio.
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 29 Jul 2022 22:46:10 +0200
+
 leste-config (1.69-1) unstable; urgency=medium
 
   * Fix path in rsyslog.d maemo daemons

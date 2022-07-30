@@ -1,3 +1,10 @@
+leste-config (1.71-1) unstable; urgency=medium
+
+  * Revert previous pulse echo cancel
+  * Add better UCM for the Droid 4 for working call audio
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 30 Jul 2022 23:45:25 +0200
+
 leste-config (1.70-1) unstable; urgency=medium
 
   * Add pulseaudio-based noise cancelling sink/source, tested with SIP calls

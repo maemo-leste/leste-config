@@ -1,3 +1,9 @@
+leste-config (1.72-1) unstable; urgency=medium
+
+  * himrc: use sapwood engine, again
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Mon, 12 Sep 2022 20:20:33 +0300
+
 leste-config (1.71-1) unstable; urgency=medium
 
   * Revert previous pulse echo cancel

@@ -113,17 +113,17 @@ widget "*hildon-im-alt-button" style "vkb-alt-button"
 style "vkb-shift-button" {
         GtkButton::child_spacing = 0
 
-        engine "sapwood" {
+        engine "pixmap" {
                 image {
                         function = BOX
                         state = ACTIVE
                         file = "InputMethodShiftButtonPressed.png"
-                        border = { 16, 52, 0, 0 }
+                        border = { 10, 10, 0, 0 }
                 }
                 image {
                         function = BOX
                         file = "InputMethodShiftButtonNormal.png"
-                        border = { 16, 52, 0, 0 }
+                        border = { 10, 10, 0, 0 }
                 }
         }
 }
@@ -132,17 +132,17 @@ widget "*hildon-im-shift-button" style "vkb-shift-button"
 style "vkb-backspace-button" {
         GtkButton::child_spacing = 0
 
-        engine "sapwood" {
+        engine "pixmap" {
                 image {
                         function = BOX
                         state = ACTIVE
                         file = "InputMethodBackspaceButtonPressed.png"
-                        border = { 52, 16, 0, 0 }
+                        border = { 10, 10, 0, 0 }
                 }
                 image {
                         function = BOX
                         file = "InputMethodBackspaceButtonNormal.png"
-                        border = { 52, 16, 0, 0 }
+                        border = { 10, 10, 0, 0 }
                 }
         }
 }

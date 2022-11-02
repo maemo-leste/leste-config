@@ -1,0 +1,2 @@
+# We expect only one client (battery nvmem) and no hot-plug
+options wire search_count=1 max_slave_count=1

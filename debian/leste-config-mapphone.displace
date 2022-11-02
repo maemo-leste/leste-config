@@ -3,6 +3,7 @@
 /etc/default/keyboard.leste
 /etc/modprobe.d/blacklist-bluetooth.conf.leste
 /etc/modprobe.d/blacklist-idle.conf.leste
+/etc/modprobe.d/wire.conf.leste
 /etc/modules-load.d/droid4.conf.leste
 /etc/rsyslog.d/maemo-mapphone-kernel.conf.leste
 /etc/udev/hwdb.d/50-keyboard-modifiers.hwdb.leste

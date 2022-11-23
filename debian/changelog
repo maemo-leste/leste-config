@@ -1,3 +1,10 @@
+leste-config (1.77-1) unstable; urgency=medium
+
+  * And revert again, pulseaudio still causes a lot of wakeups, calling
+    ppoll() all the time
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Wed, 23 Nov 2022 16:54:41 +0100
+
 leste-config (1.76-1) unstable; urgency=medium
 
   * Re-add echo cancellation based on filter.want and media roles

@@ -1,3 +1,0 @@
-# Applications have to explicitly request this throught filter.want and their
-# media roles
-load-module module-echo-cancel aec_method=webrtc

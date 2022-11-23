@@ -9,7 +9,6 @@
 /etc/profile.d/xdg-runtime.sh.leste
 /etc/pulse/daemon.conf.d/00-leste.conf.leste
 /etc/pulse/leste.pa.d/00-default.pa.leste
-/etc/pulse/leste.pa.d/10-echo-cancel.pa.leste
 /etc/pulse/leste.pa.leste
 /etc/rsyslog.d/maemo-daemons.conf.leste
 /etc/sysctl.d/nosysrq.conf.leste

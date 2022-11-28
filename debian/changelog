@@ -1,3 +1,9 @@
+leste-config (1.78-1) unstable; urgency=medium
+
+  * Attempt to nerf wakeups by disabling proactive memory compaction
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Mon, 28 Nov 2022 15:11:27 +0100
+
 leste-config (1.77-1) unstable; urgency=medium
 
   * And revert again, pulseaudio still causes a lot of wakeups, calling

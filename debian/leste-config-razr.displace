@@ -1,0 +1,2 @@
+/etc/mce/mce.ini.d/70-razr.ini.leste
+/lib/udev/rules.d/50-iio-sensors.rules.leste

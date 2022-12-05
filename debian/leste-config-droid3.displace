@@ -1,2 +1,3 @@
 /etc/mce/mce.ini.d/70-droid3.ini.leste
 /lib/udev/rules.d/50-iio-sensors.rules.leste
+/lib/udev/rules.d/85-input-devices.rules.leste

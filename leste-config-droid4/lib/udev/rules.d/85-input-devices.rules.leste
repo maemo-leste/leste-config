@@ -1,0 +1,2 @@
+SUBSYSTEM=="input", ENV{ID_PATH}=="platform-48072000.i2c", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+SUBSYSTEM=="input", ENV{ID_PATH}=="platform-mapphone_touchscreen", ENV{LIBINPUT_CALIBRATION_MATRIX}="1 0 0 0 1.085 0"

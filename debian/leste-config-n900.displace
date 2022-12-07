@@ -2,7 +2,7 @@
 /etc/default/keyboard.leste
 /etc/mce/mce.ini.d/70-n900.ini.leste
 /etc/modprobe.d/nokia-modem.conf.leste
-/etc/modules-load.d/nokia-modem.conf.leste
+/etc/modprobe.d/blacklist-omap-ssi.conf.leste
 /etc/network/if-pre-up.d/00mac.leste
 /lib/udev/rules.d/10-nokia-modem.rules.leste
 /lib/udev/rules.d/50-iio-sensor-proxy.rules.leste

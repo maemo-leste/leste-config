@@ -11,8 +11,8 @@
 /etc/pulse/leste.pa.d/00-default.pa.leste
 /etc/pulse/leste.pa.leste
 /etc/rsyslog.d/maemo-daemons.conf.leste
+/etc/sysctl.d/no-proactive-compaction.conf.leste
 /etc/sysctl.d/nosysrq.conf.leste
-/etc/sysctl.d/no-proactive-compaction.conf
 /etc/wpa_supplicant/wpa_supplicant.conf.leste
 /home/user/.config/user-dirs.dirs.leste
 /usr/sbin/policy-rc.d.leste

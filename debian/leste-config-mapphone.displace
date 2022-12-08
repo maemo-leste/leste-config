@@ -8,7 +8,6 @@
 /etc/rsyslog.d/maemo-mapphone-kernel.conf.leste
 /etc/udev/hwdb.d/50-keyboard-modifiers.hwdb.leste
 /lib/udev/rules.d/55-modem.rules.leste
-/lib/udev/rules.d/85-input-devices.rules.leste
 /usr/share/alsa/ucm2/Mapphone_Audio/HiFi.conf.leste
 /usr/share/alsa/ucm2/Mapphone_Audio/Mapphone_Audio.conf.leste
 /usr/share/alsa/ucm2/Mapphone_Audio/VoiceCall.conf.leste

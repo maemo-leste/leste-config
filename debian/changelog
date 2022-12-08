@@ -1,3 +1,9 @@
+leste-config (1.80-2) unstable; urgency=medium
+
+  * Run gen-displace to fix conflicts
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 08 Dec 2022 13:08:51 +0100
+
 leste-config (1.80-1) unstable; urgency=medium
 
   * Blacklist n900 modem to avoid crashes with Linux 6.1

@@ -24,11 +24,6 @@ SectionVerb {
 		cset "name='Mic1 Capture Volume' 15"
 		cset "name='Mic2 Capture Volume' 15"
 	]
-
-	Value {
-		PlaybackPCM "hw:${CardId},0"
-		CapturePCM "hw:${CardId},0"
-	}
 }
 
 SectionDevice."Earpiece" {

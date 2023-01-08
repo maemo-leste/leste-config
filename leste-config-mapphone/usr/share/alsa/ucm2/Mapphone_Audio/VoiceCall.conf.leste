@@ -90,5 +90,6 @@ SectionDevice."Headphones" {
 		PlaybackChannels 2
 		PlaybackPriority 100
 		PlaybackPCM "hw:${CardId},0"
+		JackControl "Headphones Jack"
 	}
 }

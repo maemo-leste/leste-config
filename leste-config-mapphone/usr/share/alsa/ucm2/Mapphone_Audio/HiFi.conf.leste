@@ -101,6 +101,7 @@ SectionDevice."Headset" {
 		CapturePriority 100
 		CapturePCM "hw:${CardId},1"
 		CaptureChannels 2
+		JackControl "Headphones Jack"
 	}
 }
 SectionDevice."Headphones" {
@@ -121,5 +122,6 @@ SectionDevice."Headphones" {
 		PlaybackChannels 2
 		PlaybackPriority 100
 		PlaybackPCM "hw:${CardId},0"
+		JackControl "Headphones Jack"
 	}
 }

@@ -1,6 +1,6 @@
 [Shortcuts]
-LeftButton=XF86AudioLowerVolume
-RaiseVkb=XF86AudioRaiseVolume
+# LeftButton=XF86AudioLowerVolume
+# RaiseVkb=XF86AudioRaiseVolume
 Xterm=<shift><ctrl>x
 Unredirect=<shift><ctrl>n
 Screenshot=<shift><ctrl>p

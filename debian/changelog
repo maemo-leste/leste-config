@@ -1,3 +1,9 @@
+leste-config (1.83-1) unstable; urgency=medium
+
+  * Add logind.conf.d/maemo-leste.conf to disable power button turning off the device
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 04 Mar 2023 13:38:04 +0100
+
 leste-config (1.82-1) unstable; urgency=medium
 
   * ucm2 fixes for mapphones with pulseaudio 14+ for headset plug events

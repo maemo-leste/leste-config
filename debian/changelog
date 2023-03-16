@@ -1,3 +1,11 @@
+leste-config (1.85-1) unstable; urgency=medium
+
+  * n900: fix hdq high idle power usage
+  * pinephone: fix conflicting shortcuts with the volume keys
+  * elogind: do not handle any key
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Thu, 16 Mar 2023 20:34:32 +0200
+
 leste-config (1.84-1) unstable; urgency=medium
 
   * Fixup elogind config path

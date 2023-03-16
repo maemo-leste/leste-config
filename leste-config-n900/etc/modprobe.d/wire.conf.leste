@@ -1,0 +1,2 @@
+# We expect no clients and no hotplug
+options wire search_count=1 max_slave_count=1

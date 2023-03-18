@@ -1,3 +1,9 @@
+leste-config (1.86-1) unstable; urgency=medium
+
+  * n900: reduce power usage significantly
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 18 Mar 2023 01:30:54 +0100
+
 leste-config (1.85-1) unstable; urgency=medium
 
   * n900: fix hdq high idle power usage

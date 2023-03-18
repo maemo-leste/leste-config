@@ -1,0 +1,5 @@
+blacklist omap3_isp
+blacklist ehci_omap
+blacklist hci_nokia
+blacklist hci_uart
+#blacklist omap_hdq

@@ -1,3 +1,9 @@
+leste-config (1.87-1) unstable; urgency=medium
+
+  * n900: load nokia-modem on boot
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 25 Mar 2023 23:11:40 +0100
+
 leste-config (1.86-1) unstable; urgency=medium
 
   * n900: reduce power usage significantly

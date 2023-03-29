@@ -1,0 +1,2 @@
+rm_conffile /etc/profile.d/xdg-runtime.sh.leste 1.88-1~
+

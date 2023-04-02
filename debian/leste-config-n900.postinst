@@ -1,0 +1,24 @@
+#!/bin/sh
+
+echo "Updating udev hwdb"
+udevadm hwdb --update
+udevadm trigger
+
+if egrep -q '^none /sys/kernel/debug debugfs defaults 0 0' /etc/fstab; then
+    # No need to change anything
+    true;
+else
+    echo "none /sys/kernel/debug debugfs defaults 0 0" >> /etc/fstab
+fi
+
+if egrep -q 'swap' /etc/fstab; then
+    # No need to change anything
+    true;
+else
+    echo "/dev/mmcblk1p3    none	   swap defaults		  0    0" >> /etc/fstab
+fi
+
+#DEBHELPER#
+
+exit 0
+

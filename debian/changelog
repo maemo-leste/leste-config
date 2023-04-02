@@ -1,3 +1,9 @@
+leste-config (1.89-1) unstable; urgency=medium
+
+  * n900: add swap and debugfs
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 02 Apr 2023 17:41:28 +0200
+
 leste-config (1.88-1) unstable; urgency=medium
 
   * common: remove /etc/profile.d/xdg-runtime.sh

@@ -4,7 +4,7 @@ Section "Device"
         Identifier      "Video Device"
         Driver          "omap"
         Option          "Debug"         "false"
-	Option          "ManualUpdate"  "true"
+        Option          "ManualUpdate"  "false"
 EndSection
 
 Section "Screen"

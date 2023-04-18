@@ -1,3 +1,9 @@
+leste-config (1.90-1) unstable; urgency=medium
+
+  * n900: omap.conf: do not do manual display update
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Tue, 18 Apr 2023 17:17:32 +0300
+
 leste-config (1.89-1) unstable; urgency=medium
 
   * n900: add swap and debugfs

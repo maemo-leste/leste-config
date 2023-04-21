@@ -1,3 +1,9 @@
+leste-config (1.91-1) unstable; urgency=medium
+
+  * n900: better perms for cmt_speech
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 21 Apr 2023 10:37:12 +0200
+
 leste-config (1.90-1) unstable; urgency=medium
 
   * n900: omap.conf: do not do manual display update

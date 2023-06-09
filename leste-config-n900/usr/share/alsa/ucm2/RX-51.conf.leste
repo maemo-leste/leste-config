@@ -1,0 +1,11 @@
+Syntax 2
+
+SectionUseCase."HiFi" {
+	File "HiFi.conf"
+	Comment "N900 HiFi"
+}
+
+SectionUseCase."Voice Call" {
+        File "VoiceCall.conf"
+        Comment "N900 VoiceCall"
+}

@@ -15,4 +15,3 @@
 /usr/share/X11/xorg.conf.d/40-xkb.conf.leste
 /usr/share/X11/xorg.conf.d/99-calibration.conf.leste
 /usr/share/X11/xorg.conf.d/99-omap.conf.leste
-/var/lib/alsa/asound.state.leste

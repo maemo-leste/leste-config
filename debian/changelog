@@ -1,3 +1,9 @@
+leste-config (1.92-1) unstable; urgency=medium
+
+  * n900: add UCM
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 09 Jun 2023 21:55:02 +0200
+
 leste-config (1.91-1) unstable; urgency=medium
 
   * n900: better perms for cmt_speech

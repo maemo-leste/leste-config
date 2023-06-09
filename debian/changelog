@@ -1,3 +1,9 @@
+leste-config (1.93-1) unstable; urgency=medium
+
+  * n900: correct UCM path
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 09 Jun 2023 22:57:25 +0200
+
 leste-config (1.92-1) unstable; urgency=medium
 
   * n900: add UCM

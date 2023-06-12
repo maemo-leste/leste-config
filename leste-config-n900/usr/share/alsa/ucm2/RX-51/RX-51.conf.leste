@@ -9,3 +9,9 @@ SectionUseCase."Voice Call" {
         File "VoiceCall.conf"
         Comment "N900 VoiceCall"
 }
+
+BootSequence [
+	cset "name='PCM Playback Volume' 25,25"
+	msleep 50
+	cset "name='PCM Playback Volume' 60,60"
+]

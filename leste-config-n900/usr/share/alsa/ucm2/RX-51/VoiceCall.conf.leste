@@ -14,7 +14,7 @@ SectionVerb {
 		cset "name='Mono PGA Bypass Volume' 71,71"
 		cset "name='Mono DAC Playback Volume' 0,0"
 		cset "name='Mono Playback Switch' on"
-		cset "name='PCM Playback Volume' 80,80"
+		cset "name='PCM Playback Volume' 118,118"
 		cset "name='Left Line Mixer PGAR Bypass Volume' 100"
 		cset "name='Left Line Mixer DACR1 Playback Volume' 100"
 		cset "name='Right Line Mixer PGAL Bypass Volume' 100"
@@ -133,7 +133,7 @@ SectionVerb {
 		cset "name='b Mono PGA Bypass Volume' 71,71"
 		cset "name='b Mono DAC Playback Volume' 0,0"
 		cset "name='b Mono Playback Switch' on"
-		cset "name='b PCM Playback Volume' 100,100"
+		cset "name='b PCM Playback Volume' 118,118"
 		cset "name='b Left Line Mixer PGAR Bypass Volume' 100"
 		cset "name='b Left Line Mixer DACR1 Playback Volume' 100"
 		cset "name='b Right Line Mixer PGAL Bypass Volume' 100"
@@ -269,11 +269,13 @@ SectionDevice."Headphones" {
 	EnableSequence [
 		cset "name='Speaker Function' Off"
 		cset "name='Jack Function' Headphone"
+		cset "name='TPA6130A2 Headphone Playback Volume' 71"
 	]
 
 	DisableSequence [
 		cset "name='Speaker Function' On"
 		cset "name='Jack Function' Off"
+		cset "name='TPA6130A2 Headphone Playback Volume' 7"
 	]
 
 	Value {

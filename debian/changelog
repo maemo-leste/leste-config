@@ -1,3 +1,11 @@
+leste-config (1.96-1) unstable; urgency=medium
+
+  * n900: more UCM improvements. easier config, jack plug/unplug works, no
+    more noise in headset/headphone
+  * earpiece doesn't work yet
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 07 Jul 2023 12:32:19 +0200
+
 leste-config (1.95-1) unstable; urgency=medium
 
   * n900: modify UCM for volume control again

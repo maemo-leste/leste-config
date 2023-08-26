@@ -1,3 +1,9 @@
+leste-config (1.97-1) unstable; urgency=medium
+
+  * n900: UCM improvements - earpiece works, thanks Sicelo and Arno II
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 26 Aug 2023 22:34:44 +0200
+
 leste-config (1.96-1) unstable; urgency=medium
 
   * n900: more UCM improvements. easier config, jack plug/unplug works, no

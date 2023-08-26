@@ -12,7 +12,7 @@ SectionVerb {
 		cset "name='HPCOM Line2 Bypass Volume' 71,71"
 		cset "name='Mono Line2 Bypass Volume' 78,78"
 		cset "name='Mono PGA Bypass Volume' 71,71"
-		cset "name='Mono DAC Playback Volume' 0,0"
+		cset "name='Mono DAC Playback Volume' 71,71"
 		cset "name='Mono Playback Switch' on"
 		cset "name='PCM Playback Volume' 118,118"
 		cset "name='Left Line Mixer PGAR Bypass Volume' 0"
@@ -30,12 +30,15 @@ SectionVerb {
 		cset "name='Line PGA Bypass Volume' 0,0"
 		cset "name='Line DAC Playback Volume' 100,100"
 		cset "name='HP PGA Bypass Volume' 71,71"
-		cset "name='HP DAC Playback Volume' 100,0"
+		cset "name='HP DAC Playback Volume' 100,100"
 		cset "name='HPCOM PGA Bypass Volume' 71,71"
 		cset "name='HPCOM DAC Playback Volume' 84,84"
 		cset "name='Line Playback Switch' on,on"
+		cset "name='Line Playback Volume' 2,2"
 		cset "name='HP Playback Switch' on,on"
+                cset "name='HP Playback Volume' 0,0"
 		cset "name='HPCOM Playback Switch' on,on"
+		cset "name='HPCOM Playback Volume' 0,0"
 		cset "name='AGC Switch' off,off"
 		cset "name='Left AGC Target level' -5.5dB"
 		cset "name='Right AGC Target level' -5.5dB"
@@ -45,7 +48,7 @@ SectionVerb {
 		cset "name='Right AGC Decay time' 100ms"
 		cset "name='De-emphasis Switch' off,off,"
 		cset "name='PGA Capture Volume' 118,118"
-		cset "name='PGA Capture Switch' off,on"
+		cset "name='PGA Capture Switch' on,on"
 		cset "name='ADC HPF Cut-off' 0.0045xFs,0.0045xFs"
 		cset "name='Output Driver Power-On time' 0us"
 		cset "name='Output Driver Ramp-up step' 0ms"
@@ -53,11 +56,12 @@ SectionVerb {
 		cset "name='McBSP2 Sidetone Switch' off"
 		cset "name='McBSP2 Sidetone Channel 0 Volume' 0"
 		cset "name='McBSP2 Sidetone Channel 1 Volume' 0"
-		cset "name='Speaker Function' On"
+		cset "name='Speaker Function' Off"
 		cset "name='Input Select' Digital Mic"
+#		cset "name='Input Select' ADC"
 		cset "name='Jack Function' Off"
 		cset "name='FM Transmitter Switch' off"
-		cset "name='Earphone Switch' off"
+		cset "name='Earphone Switch' on"
 		cset "name='Left DAC Mux' DAC_L1"
 		cset "name='Left HPCOM Mux' differential of HPLOUT"
 		cset "name='Right DAC Mux' DAC_R1"
@@ -116,10 +120,124 @@ SectionVerb {
 		cset "name='Right HPCOM Mixer Line2R Bypass Switch' off"
 		cset "name='Mono Mixer Line2L Bypass Switch' off"
 		cset "name='Mono Mixer PGAL Bypass Switch' off"
-		cset "name='Mono Mixer DACL1 Switch' on"
+		cset "name='Mono Mixer DACL1 Switch' off"
 		cset "name='Mono Mixer Line2R Bypass Switch' off"
 		cset "name='Mono Mixer PGAR Bypass Switch' off"
 		cset "name='Mono Mixer DACR1 Switch' on"
+		cset "name='b Left Line Mixer Line2R Bypass Volume' 100"
+		cset "name='b Right Line Mixer Line2L Bypass Volume' 100"
+		cset "name='b Left HP Mixer Line2R Bypass Volume' 100"
+		cset "name='b Right HP Mixer Line2L Bypass Volume' 100"
+		cset "name='b Left HPCOM Mixer Line2R Bypass Volume' 100"
+		cset "name='b Right HPCOM Mixer Line2L Bypass Volume' 100"
+		cset "name='b Line Line2 Bypass Volume' 71,71"
+		cset "name='b HP Line2 Bypass Volume' 71,71"
+		cset "name='b HPCOM Line2 Bypass Volume' 71,71"
+		cset "name='b Mono Line2 Bypass Volume' 71,71"
+		cset "name='b Mono PGA Bypass Volume' 71,71"
+		cset "name='b Mono DAC Playback Volume' 71,71"
+		cset "name='b Mono Playback Switch' on"
+		cset "name='b PCM Playback Volume' 80,80"
+		cset "name='b Left Line Mixer PGAR Bypass Volume' 100"
+		cset "name='b Left Line Mixer DACR1 Playback Volume' 100"
+		cset "name='b Right Line Mixer PGAL Bypass Volume' 100"
+		cset "name='b Right Line Mixer DACL1 Playback Volume' 100"
+		cset "name='b Left HP Mixer PGAR Bypass Volume' 100"
+		cset "name='b Left HP Mixer DACR1 Playback Volume' 100"
+		cset "name='b Right HP Mixer PGAL Bypass Volume' 100"
+		cset "name='b Right HP Mixer DACL1 Playback Volume' 100"
+		cset "name='b Left HPCOM Mixer PGAR Bypass Volume' 100"
+		cset "name='b Left HPCOM Mixer DACR1 Playback Volume' 100"
+		cset "name='b Right HPCOM Mixer PGAL Bypass Volume' 100"
+		cset "name='b Right HPCOM Mixer DACL1 Playback Volume' 100"
+		cset "name='b Line PGA Bypass Volume' 0,0"
+		cset "name='b Line DAC Playback Volume' 71,71"
+		cset "name='b HP PGA Bypass Volume' 71,71"
+		cset "name='b HP DAC Playback Volume' 71,71"
+		cset "name='b HPCOM PGA Bypass Volume' 71,71"
+		cset "name='b HPCOM DAC Playback Volume' 71,71"
+		cset "name='b Line Playback Switch' on,on"
+		cset "name='b Line Playback Volume' 4,4"
+		cset "name='b HP Playback Switch' on,on"
+                cset "name='b HP Playback Volume' 1,1"
+		cset "name='b HPCOM Playback Switch' on,on"
+		cset "name='b HPCOM Playback Volume' 5,5"
+		cset "name='b AGC Switch' off,off"
+		cset "name='b Left AGC Target level' -5.5dB"
+		cset "name='b Right AGC Target level' -5.5dB"
+		cset "name='b Left AGC Attack time' 8ms"
+		cset "name='b Right AGC Attack time' 8ms"
+		cset "name='b Left AGC Decay time' 100ms"
+		cset "name='b Right AGC Decay time' 100ms"
+		cset "name='b De-emphasis Switch' off,off"
+		cset "name='b PGA Capture Volume' 80,80"
+		cset "name='b PGA Capture Switch' on,on"
+		cset "name='b ADC HPF Cut-off' Disabled,Disabled"
+		cset "name='b Output Driver Power-On time' 0us"
+		cset "name='b Output Driver Ramp-up step' 0ms"
+		cset "name='b Left DAC Mux' DAC_L1"
+		cset "name='b Left HPCOM Mux' differential of HPLOUT"
+		cset "name='b Right DAC Mux' DAC_R1"
+		cset "name='b Right HPCOM Mux' differential of HPROUT"
+		cset "name='b Left Line1L Mux' single-ended"
+		cset "name='b Left Line1R Mux' single-ended"
+		cset "name='b Right Line1L Mux' single-ended"
+		cset "name='b Right Line1R Mux' single-ended"
+		cset "name='b Left PGA Mixer Line1L Switch' on"
+		cset "name='b Left PGA Mixer Line1R Switch' off"
+		cset "name='b Left PGA Mixer Line2L Switch' off"
+		cset "name='b Left PGA Mixer Mic3L Switch' off"
+		cset "name='b Left PGA Mixer Mic3R Switch' off"
+		cset "name='b Left Line2L Mux' single-ended"
+		cset "name='b Right PGA Mixer Line1R Switch' on"
+		cset "name='b Right PGA Mixer Line1L Switch' off"
+		cset "name='b Right PGA Mixer Line2R Switch' on"
+		cset "name='b Right PGA Mixer Mic3L Switch' off"
+		cset "name='b Right PGA Mixer Mic3R Switch' off"
+		cset "name='b Right Line2R Mux' differential"
+		cset "name='b Left Line Mixer PGAL Bypass Switch' off"
+		cset "name='b Left Line Mixer DACL1 Switch' on"
+		cset "name='b Left Line Mixer PGAR Bypass Switch' off"
+		cset "name='b Left Line Mixer DACR1 Switch' off"
+		cset "name='b Left Line Mixer Line2L Bypass Switch' off"
+		cset "name='b Left Line Mixer Line2R Bypass Switch' off"
+		cset "name='b Right Line Mixer PGAL Bypass Switch' off"
+		cset "name='b Right Line Mixer DACL1 Switch' off"
+		cset "name='b Right Line Mixer PGAR Bypass Switch' off"
+		cset "name='b Right Line Mixer DACR1 Switch' on"
+		cset "name='b Right Line Mixer Line2L Bypass Switch' off"
+		cset "name='b Right Line Mixer Line2R Bypass Switch' on"
+		cset "name='b Left HP Mixer PGAL Bypass Switch' off"
+		cset "name='b Left HP Mixer DACL1 Switch' on"
+		cset "name='b Left HP Mixer PGAR Bypass Switch' on"
+		cset "name='b Left HP Mixer DACR1 Switch' off"
+		cset "name='b Left HP Mixer Line2L Bypass Switch' off"
+		cset "name='b Left HP Mixer Line2R Bypass Switch' off"
+		cset "name='b Right HP Mixer PGAL Bypass Switch' off"
+		cset "name='b Right HP Mixer DACL1 Switch' off"
+		cset "name='b Right HP Mixer PGAR Bypass Switch' off"
+		cset "name='b Right HP Mixer DACR1 Switch' on"
+		cset "name='b Right HP Mixer Line2L Bypass Switch' off"
+		cset "name='b Right HP Mixer Line2R Bypass Switch' off"
+		cset "name='b Left HPCOM Mixer PGAL Bypass Switch' off"
+		cset "name='b Left HPCOM Mixer DACL1 Switch' on"
+		cset "name='b Left HPCOM Mixer PGAR Bypass Switch' off"
+		cset "name='b Left HPCOM Mixer DACR1 Switch' off"
+		cset "name='b Left HPCOM Mixer Line2L Bypass Switch' off"
+		cset "name='b Left HPCOM Mixer Line2R Bypass Switch' off"
+		cset "name='b Right HPCOM Mixer PGAL Bypass Switch' off"
+		cset "name='b Right HPCOM Mixer DACL1 Switch' off"
+		cset "name='b Right HPCOM Mixer PGAR Bypass Switch' off"
+		cset "name='b Right HPCOM Mixer DACR1 Switch' on"
+		cset "name='b Right HPCOM Mixer Line2L Bypass Switch' off"
+		cset "name='b Right HPCOM Mixer Line2R Bypass Switch' on"
+		cset "name='b Mono Mixer Line2L Bypass Switch' off"
+		cset "name='b Mono Mixer PGAL Bypass Switch' off"
+		cset "name='b Mono Mixer DACL1 Switch' on"
+		cset "name='b Mono Mixer Line2R Bypass Switch' off"
+		cset "name='b Mono Mixer PGAR Bypass Switch' off"
+		cset "name='b Mono Mixer DACR1 Switch' on"	
+
 		
 	]
 #      Value {
@@ -131,22 +249,49 @@ SectionVerb {
 }
 
 
+SectionDevice."Earpiece" {
+        Comment "Internal Earpiece"
+        EnableSequence [
+                cset "name='Earphone Switch' on"
+                cset "name='Jack Function' Off"
+                cset "name='Speaker Function' Off"
+
+       ]
+
+        DisableSequence [
+               cset "name='Earphone Switch' off"
+#               cset "name='Jack Function' Off"
+        ]
+
+        Value {
+                PlaybackVolume "PCM Playback Volume"
+                PlaybackChannels 2
+                PlaybackPriority 300
+                PlaybackPCM "hw:${CardId},0"
+                CapturePCM "hw:${CardId},0"
+
+        }
+}
+
+
+
 SectionDevice."Speaker" {
 	Comment "Internal Speaker"
 	EnableSequence [
-#		cset "name='Speaker Function' On"
-#		cset "name='Jack Function' Off"
+		cset "name='Speaker Function' On"
+		cset "name='Jack Function' Off"
+		cset "name='Earphone Switch' off"
 	]
 
 	DisableSequence [
-#		cset "name='Speaker Function' On"
+		cset "name='Speaker Function' Off"
 #		cset "name='Jack Function' Off"
 	]
 
 	Value {
 		PlaybackVolume "PCM Playback Volume"
 		PlaybackChannels 2
-		PlaybackPriority 300
+		PlaybackPriority 200
 		PlaybackPCM "hw:${CardId},0"
 		CapturePCM "hw:${CardId},0"
 
@@ -158,12 +303,13 @@ SectionDevice."Headphones" {
 	EnableSequence [
 		cset "name='Speaker Function' Off"
 		cset "name='Jack Function' Headphone"
+		cset "name='Earphone Switch' off"
 		cset "name='TPA6130A2 Headphone Playback Volume' 25"
 	]
 
 	DisableSequence [
-		cset "name='Speaker Function' On"
-		cset "name='Jack Function' Off"
+#		cset "name='Earphone Switch' on"
+#		cset "name='Jack Function' Off"
 		cset "name='TPA6130A2 Headphone Playback Volume' 7"
 	]
 

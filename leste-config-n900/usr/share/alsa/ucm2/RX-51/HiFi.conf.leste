@@ -128,30 +128,59 @@ SectionVerb {
 SectionDevice."Speaker" {
 	Comment "Internal Speaker"
 	EnableSequence [
-#		cset "name='Speaker Function' On"
+		cset "name='Speaker Function' On"
 #		cset "name='Jack Function' Off"
 
 	]
 
 	DisableSequence [
-#		cset "name='Speaker Function' On"
+		cset "name='Speaker Function' Off"
 #		cset "name='Jack Function' Off"
 	]
 
 	Value {
 		PlaybackVolume "PCM Playback Volume"
 		PlaybackChannels 2
-		PlaybackPriority 600
+		PlaybackPriority 500
 		PlaybackPCM "hw:${CardId},0"
 		CapturePCM "hw:${CardId},0"
 
 	}
 }
 
+
+SectionDevice."Earpiece" {
+        Comment "Internal Earpiece"
+        EnableSequence [
+                cset "name='Earphone Switch' on"
+#                cset "name='Jack Function' Off"
+                cset "name='Speaker Function' Off"
+
+       ]
+
+        DisableSequence [
+               cset "name='Earphone Switch' off"
+		cset "name='Speaker Function' On"
+#               cset "name='Jack Function' Off"
+        ]
+
+        Value {
+                PlaybackVolume "PCM Playback Volume"
+                PlaybackChannels 2
+                PlaybackPriority 200
+                PlaybackPCM "hw:${CardId},0"
+                CapturePCM "hw:${CardId},0"
+
+        }
+}
+
+
+
 SectionDevice."Headphones" {
 	Comment "Headset"
 	EnableSequence [
 		cset "name='Speaker Function' Off"
+		cset "name='Earphone Switch' off"
 		cset "name='Jack Function' Headphone"
 		cset "name='TPA6130A2 Headphone Playback Volume' 25"
 	]
@@ -165,7 +194,7 @@ SectionDevice."Headphones" {
 	Value {
 		PlaybackVolume "PCM Playback Volume"
 		PlaybackChannels 2
-		PlaybackPriority 500
+		PlaybackPriority 100
 		PlaybackPCM "hw:${CardId},0"
 		CapturePCM "hw:${CardId},0"		
 		JackControl "AV Jack"

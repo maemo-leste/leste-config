@@ -14,7 +14,7 @@ SectionVerb {
 		cset "name='Mono PGA Bypass Volume' 71,71"
 		cset "name='Mono DAC Playback Volume' 71,71"
 		cset "name='Mono Playback Switch' on"
-		cset "name='PCM Playback Volume' 118,118"
+		cset "name='PCM Playback Volume' 100,100"
 		cset "name='Left Line Mixer PGAR Bypass Volume' 0"
 		cset "name='Left Line Mixer DACR1 Playback Volume' 0"
 		cset "name='Right Line Mixer PGAL Bypass Volume' 0"
@@ -248,9 +248,29 @@ SectionVerb {
 
 }
 
+SectionDevice."PGA Capture" {
+        Comment "Internal Microphone"
+        EnableSequence [
+                cset "name='PGA Capture Switch' on"
 
-SectionDevice."Earpiece" {
-        Comment "Internal Earpiece"
+       ]
+
+        DisableSequence [
+                cset "name='PGA Capture Switch' off"
+
+        ]
+
+        Value {
+                CaptureChannels 2
+                CapturePriority 500
+                CapturePCM "hw:${CardId},0"
+
+        }
+}
+
+
+SectionDevice."Speaker" {
+        Comment "Internal Speaker"
         EnableSequence [
                 cset "name='Earphone Switch' on"
                 cset "name='Jack Function' Off"
@@ -259,7 +279,7 @@ SectionDevice."Earpiece" {
        ]
 
         DisableSequence [
-               cset "name='Earphone Switch' off"
+		cset "name='Earphone Switch' off"
 #               cset "name='Jack Function' Off"
         ]
 
@@ -268,35 +288,11 @@ SectionDevice."Earpiece" {
                 PlaybackChannels 2
                 PlaybackPriority 300
                 PlaybackPCM "hw:${CardId},0"
-                CapturePCM "hw:${CardId},0"
+#               CapturePCM "hw:${CardId},0"
 
         }
 }
 
-
-
-SectionDevice."Speaker" {
-	Comment "Internal Speaker"
-	EnableSequence [
-		cset "name='Speaker Function' On"
-		cset "name='Jack Function' Off"
-		cset "name='Earphone Switch' off"
-	]
-
-	DisableSequence [
-		cset "name='Speaker Function' Off"
-#		cset "name='Jack Function' Off"
-	]
-
-	Value {
-		PlaybackVolume "PCM Playback Volume"
-		PlaybackChannels 2
-		PlaybackPriority 200
-		PlaybackPCM "hw:${CardId},0"
-		CapturePCM "hw:${CardId},0"
-
-	}
-}
 
 SectionDevice."Headphones" {
 	Comment "Headset"
@@ -319,7 +315,7 @@ SectionDevice."Headphones" {
 		PlaybackPriority 100
 		PlaybackPCM "hw:${CardId},0"
 		JackControl "AV Jack"
-		CapturePCM "hw:${CardId},0"
+#		CapturePCM "hw:${CardId},0"
 
 	}
 }

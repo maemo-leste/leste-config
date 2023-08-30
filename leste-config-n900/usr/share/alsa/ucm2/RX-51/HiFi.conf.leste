@@ -143,25 +143,25 @@ SectionDevice."Speaker" {
 		PlaybackChannels 2
 		PlaybackPriority 500
 		PlaybackPCM "hw:${CardId},0"
-		CapturePCM "hw:${CardId},0"
+#		CapturePCM "hw:${CardId},0"
 
 	}
 }
 
-
-SectionDevice."Earpiece" {
-        Comment "Internal Earpiece"
+SectionDevice."FMTX" {
+        Comment "Internal FM Transmitter"
         EnableSequence [
-                cset "name='Earphone Switch' on"
-#                cset "name='Jack Function' Off"
+                cset "name='FM Transmitter Switch' on"
+                cset "name='Jack Function' Headphone"
                 cset "name='Speaker Function' Off"
+#               cset "name='Jack Function' Off"
 
-       ]
+        ]
 
         DisableSequence [
-               cset "name='Earphone Switch' off"
-		cset "name='Speaker Function' On"
-#               cset "name='Jack Function' Off"
+                cset "name='FM Transmitter Switch' off"
+#               cset "name='Speaker Function' Off"
+                cset "name='Jack Function' Off"
         ]
 
         Value {
@@ -169,11 +169,9 @@ SectionDevice."Earpiece" {
                 PlaybackChannels 2
                 PlaybackPriority 200
                 PlaybackPCM "hw:${CardId},0"
-                CapturePCM "hw:${CardId},0"
-
-        }
+ #               CapturePCM "hw:${CardId},0"
+	}
 }
-
 
 
 SectionDevice."Headphones" {
@@ -196,7 +194,7 @@ SectionDevice."Headphones" {
 		PlaybackChannels 2
 		PlaybackPriority 100
 		PlaybackPCM "hw:${CardId},0"
-		CapturePCM "hw:${CardId},0"		
+#		CapturePCM "hw:${CardId},0"		
 		JackControl "AV Jack"
 
 	}

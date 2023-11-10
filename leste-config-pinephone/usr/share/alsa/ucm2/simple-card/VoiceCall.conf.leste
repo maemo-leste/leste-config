@@ -74,7 +74,7 @@ SectionDevice."Earpiece" {
 	EnableSequence [
 		cset "name='AIF1 DA0 Stereo Playback Route' Mix Mono"
 		cset "name='Earpiece Playback Switch' on"
-		cset "name='Earpiece Playback Volume' 100%"
+		cset "name='Earpiece Playback Volume' 60%"
 	]
 
 	DisableSequence [

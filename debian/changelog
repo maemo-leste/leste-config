@@ -1,3 +1,9 @@
+leste-config (1.99-1) unstable; urgency=medium
+
+  * pinephone: lower earpiece volume
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 10 Nov 2023 20:40:25 +0100
+
 leste-config (1.98-1) unstable; urgency=medium
 
   * n900: more UCM improvements - add fmtx, fix some earpiece bugs

@@ -12,10 +12,12 @@ else
 fi
 
 if egrep -q 'swap' /etc/fstab; then
+    echo "Swap already present in /etc/fstab"
     # No need to change anything
     true;
 else
-    echo "/dev/mmcblk1p3    none	   swap defaults		  0    0" >> /etc/fstab
+    echo "Adding swap to /etc/fstab"
+    echo "/dev/mmcblk1p3    none	   swap sw		  0    0" >> /etc/fstab
 fi
 
 #DEBHELPER#

@@ -6,4 +6,4 @@ SUBSYSTEMS=="hsi", ENV{OFONO_DRIVER}="n900", ENV{OFONO_ISI_ADDRESS}="108"
 KERNEL=="phonet*", ENV{OFONO_DRIVER}="n900", ENV{OFONO_ISI_ADDRESS}="108"
 
 # Default is 0600, root:root, let's make it a bit more usable
-KERNEL=="cmt_speech", MODE:="0660", OWNER:="root", GROUP:="pulse"
+KERNEL=="cmt_speech", MODE:="0660", OWNER:="root", GROUP:="audio"

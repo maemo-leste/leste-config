@@ -6,6 +6,7 @@
 /etc/modprobe.d/wire.conf.leste
 /etc/modules-load.d/nokia-modem.conf.leste
 /etc/network/if-pre-up.d/00mac.leste
+/etc/pulse/daemon.conf.leste
 /lib/udev/rules.d/10-nokia-modem.rules.leste
 /lib/udev/rules.d/50-iio-sensor-proxy.rules.leste
 /usr/share/alsa/ucm2/RX-51/HiFi.conf.leste

@@ -1,3 +1,10 @@
+leste-config (1.100-1) unstable; urgency=medium
+
+  * n900: change cmt_speech group
+  * n900: add custom daemon.conf for PA
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 01 Dec 2023 21:00:29 +0100
+
 leste-config (1.99-1) unstable; urgency=medium
 
   * pinephone: lower earpiece volume

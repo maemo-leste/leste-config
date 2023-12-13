@@ -1,3 +1,9 @@
+leste-config (1.103-1) unstable; urgency=medium
+
+  * mapphone: Add powervr.ini to fix corruption issues in textures
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Wed, 13 Dec 2023 19:52:31 +0100
+
 leste-config (1.102-1) unstable; urgency=medium
 
   * new version to make autobuilder happy

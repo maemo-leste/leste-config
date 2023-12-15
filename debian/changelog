@@ -1,3 +1,10 @@
+leste-config (1.104-1) unstable; urgency=medium
+
+  * n900: Switch to 16-bit xorg as it speed up responsively a lot
+    and standard program seems OK with it
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 15 Dec 2023 20:16:50 +0100
+
 leste-config (1.103-1) unstable; urgency=medium
 
   * mapphone: Add powervr.ini to fix corruption issues in textures

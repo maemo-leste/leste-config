@@ -11,4 +11,5 @@ Section "Screen"
         Identifier      "Screen"
         Monitor         "Monitor"
         Device          "Video Device"
+        DefaultDepth        16
 EndSection

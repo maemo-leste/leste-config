@@ -1,3 +1,10 @@
+leste-config (1.106-1) unstable; urgency=medium
+
+  * Add sphone.ini.d entry for N900 to force landscape calls for now
+    The N900 X11 doesn't like rotation yet and this will cause a black screen
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 20 Jan 2024 14:23:26 +0100
+
 leste-config (1.105-1) unstable; urgency=medium
 
   * split up leste-config-razr into xt910/xt912 and have mapphone optionally

@@ -1,3 +1,10 @@
+leste-config (1.105-1) unstable; urgency=medium
+
+  * split up leste-config-razr into xt910/xt912 and have mapphone optionally
+    depend on it
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 20 Jan 2024 14:13:39 +0100
+
 leste-config (1.104-1) unstable; urgency=medium
 
   * n900: Switch to 16-bit xorg as it speed up responsively a lot

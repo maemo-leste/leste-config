@@ -1,3 +1,9 @@
+leste-config (1.108-1) unstable; urgency=medium
+
+  * Add sphone.ini.d file to load voicecall manager module by default
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 07 Mar 2024 23:52:48 +0100
+
 leste-config (1.107-1) unstable; urgency=medium
 
   * Fixup sphone.ini.d landscape keys

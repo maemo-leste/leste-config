@@ -1,3 +1,9 @@
+leste-config (1.110-1) unstable; urgency=medium
+
+  * Properly blacklist the n900 supply modules, gen_displace was not run
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 30 Mar 2024 23:43:25 +0100
+
 leste-config (1.109-1) unstable; urgency=medium
 
   * blacklist various n900 power_supply drivers (so we don't need several

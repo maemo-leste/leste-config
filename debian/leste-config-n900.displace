@@ -2,6 +2,7 @@
 /etc/default/keyboard.leste
 /etc/mce/mce.ini.d/70-n900.ini.leste
 /etc/modprobe.d/blacklist-pm.conf.leste
+/etc/modprobe.d/blacklist-supply.conf.leste
 /etc/modprobe.d/nokia-modem.conf.leste
 /etc/modprobe.d/wire.conf.leste
 /etc/modules-load.d/nokia-modem.conf.leste

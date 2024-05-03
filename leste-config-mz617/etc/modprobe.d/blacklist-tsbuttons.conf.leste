@@ -1,0 +1,2 @@
+# We don't have these on mz617, do we need to disable this in dts?
+blacklist touchscreen_buttons

@@ -26,7 +26,7 @@ Description: Maemo Leste configurations - N900
 
 Package: leste-config-mapphone
 Architecture: all
-Depends: ${misc:Depends}, leste-config-bionic | leste-config-droid4 | leste-config-droid3 | leste-config-xt910 | leste-config-xt912
+Depends: ${misc:Depends}, leste-config-bionic | leste-config-droid4 | leste-config-droid3 | leste-config-xt910 | leste-config-xt912 | leste-config-mz617
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Maemo Leste common configurations - Droid4+Bionic
@@ -82,6 +82,16 @@ Conflicts: ${diverted-files}
 Description: Maemo Leste configurations - Razr
  This package contains configuration files for Maemo
  Leste on the Motorola Razr and Droid Razr, XT912
+
+Package: leste-config-mz617
+Architecture: all
+Section: xyboard
+Depends: ${misc:Depends}, leste-config-common
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Maemo Leste configurations - xyboard
+ This package contains configuration files for Maemo
+ Leste on the MZ617 xyboard/xoom tablet
 
 Package: leste-config-pinephone
 Architecture: all

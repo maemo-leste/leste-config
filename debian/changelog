@@ -1,3 +1,9 @@
+leste-config (1.111-1) unstable; urgency=medium
+
+  * Add mz617 package
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 03 May 2024 18:17:49 +0200
+
 leste-config (1.110-1) unstable; urgency=medium
 
   * Properly blacklist the n900 supply modules, gen_displace was not run

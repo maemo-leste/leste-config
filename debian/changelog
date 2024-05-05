@@ -1,3 +1,9 @@
+leste-config (1.112-1) unstable; urgency=medium
+
+  * Add leste-config-n900 init script
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 05 May 2024 11:56:45 +0200
+
 leste-config (1.111-1) unstable; urgency=medium
 
   * Add mz617 package

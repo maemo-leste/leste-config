@@ -1,7 +1,0 @@
-[Sphone]
-Features=calls
-
-[Modules]
-Modules=rtconf-libprofile;route-pulseaudio;playback-gstreamer;sphone-mce;comm-voicecallmanager;manager;external-exec;contacts-evolution;comm-error-gtk;contacts-ui-abook;store-rtcom;ui-dialer-gtk;ui-history-calls-gtk;ui-options-gtk;notify-libnotify;ui-calls-manager-gtk
-
-LoopModule=qtloop

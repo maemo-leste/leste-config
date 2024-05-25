@@ -1,3 +1,9 @@
+leste-config (1.113-1) unstable; urgency=medium
+
+  * Temporarily revert sphone tp config for stable release
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 25 May 2024 22:21:27 +0200
+
 leste-config (1.112-1) unstable; urgency=medium
 
   * Add leste-config-n900 init script

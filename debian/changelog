@@ -1,3 +1,9 @@
+leste-config (1.115-1) unstable; urgency=medium
+
+  * Adjust n900 swap sysctl values
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 19 Jul 2024 18:54:51 +0200
+
 leste-config (1.114-1) unstable; urgency=medium
 
   * Bring back sphone config for tp

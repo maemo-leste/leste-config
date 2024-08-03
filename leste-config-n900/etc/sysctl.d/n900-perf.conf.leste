@@ -1,0 +1,5 @@
+vm.swappiness=60
+vm.page-cluster=8
+vm.vfs_cache_pressure=50
+vm.dirty_ratio=5
+vm.dirty_background_ratio=2

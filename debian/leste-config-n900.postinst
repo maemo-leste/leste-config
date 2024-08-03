@@ -11,12 +11,30 @@ else
     echo "none /sys/kernel/debug debugfs defaults 0 0" >> /etc/fstab
 fi
 
-if egrep -q 'swap' /etc/fstab; then
-    # No need to change anything
-    true;
+# Ensure the emmc swap is commented out (doesn't work well on 6.6+)
+sed -i 's/\/dev\/mmcblk1p3/#&/' /etc/fstab
+
+# If /swap doesn't exist, create it - size 1GB
+if [ -e /swap ]
+then
+    echo "/swap exists, not creating it"
 else
-    echo "/dev/mmcblk1p3    none	   swap defaults		  0    0" >> /etc/fstab
+    fallocate -l 1g /swap
+    mkswap /swap
+    chmod 0600 /swap
+    swapon /swap
+
+    echo "/swap    none          swap            sw                      0    0" >> /etc/fstab
 fi
+
+#if egrep -q 'swap' /etc/fstab; then
+#    echo "Swap already present in /etc/fstab"
+#    # No need to change anything
+#    true;
+#else
+#    echo "Adding swap to /etc/fstab"
+#    echo "/dev/mmcblk1p3    none	   swap sw		  0    0" >> /etc/fstab
+#fi
 
 #DEBHELPER#
 

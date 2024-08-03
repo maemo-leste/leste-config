@@ -1,3 +1,128 @@
+leste-config (1.118-1) unstable; urgency=medium
+
+  * n900: use SD card swap for now
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 03 Aug 2024 11:51:59 +0200
+
+leste-config (1.117-1) unstable; urgency=medium
+
+  * pulse: change SHM size to 8MiB, this fixes many audio problems
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 03 Aug 2024 11:40:52 +0200
+
+leste-config (1.116-1) unstable; urgency=medium
+
+  * Make headset work on n900 calls
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 25 Jul 2024 23:25:22 +0200
+
+leste-config (1.115-1) unstable; urgency=medium
+
+  * Adjust n900 swap sysctl values
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 19 Jul 2024 18:54:51 +0200
+
+leste-config (1.114-1) unstable; urgency=medium
+
+  * Bring back sphone config for tp
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 25 May 2024 22:23:27 +0200
+
+leste-config (1.113-1) unstable; urgency=medium
+
+  * Temporarily revert sphone tp config for stable release
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 25 May 2024 22:21:27 +0200
+
+leste-config (1.112-1) unstable; urgency=medium
+
+  * Add leste-config-n900 init script
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 05 May 2024 11:56:45 +0200
+
+leste-config (1.111-1) unstable; urgency=medium
+
+  * Add mz617 package
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 03 May 2024 18:17:49 +0200
+
+leste-config (1.110-1) unstable; urgency=medium
+
+  * Properly blacklist the n900 supply modules, gen_displace was not run
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 30 Mar 2024 23:43:25 +0100
+
+leste-config (1.109-1) unstable; urgency=medium
+
+  * blacklist various n900 power_supply drivers (so we don't need several
+    blacklists)
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 29 Mar 2024 00:04:37 +0100
+
+leste-config (1.108-1) unstable; urgency=medium
+
+  * Add sphone.ini.d file to load voicecall manager module by default
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 07 Mar 2024 23:52:48 +0100
+
+leste-config (1.107-1) unstable; urgency=medium
+
+  * Fixup sphone.ini.d landscape keys
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 20 Jan 2024 16:40:13 +0100
+
+leste-config (1.106-1) unstable; urgency=medium
+
+  * Add sphone.ini.d entry for N900 to force landscape calls for now
+    The N900 X11 doesn't like rotation yet and this will cause a black screen
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 20 Jan 2024 14:23:26 +0100
+
+leste-config (1.105-1) unstable; urgency=medium
+
+  * split up leste-config-razr into xt910/xt912 and have mapphone optionally
+    depend on it
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 20 Jan 2024 14:13:39 +0100
+
+leste-config (1.104-1) unstable; urgency=medium
+
+  * n900: Switch to 16-bit xorg as it speed up responsively a lot
+    and standard program seems OK with it
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 15 Dec 2023 20:16:50 +0100
+
+leste-config (1.103-1) unstable; urgency=medium
+
+  * mapphone: Add powervr.ini to fix corruption issues in textures
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Wed, 13 Dec 2023 19:52:31 +0100
+
+leste-config (1.102-1) unstable; urgency=medium
+
+  * new version to make autobuilder happy
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Sat, 02 Dec 2023 10:38:32 +0200
+
+leste-config (1.101-1) unstable; urgency=medium
+
+  * n900: fix displace for daemon.conf
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 01 Dec 2023 22:15:47 +0100
+
+leste-config (1.100-1) unstable; urgency=medium
+
+  * n900: change cmt_speech group
+  * n900: add custom daemon.conf for PA
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 01 Dec 2023 21:00:29 +0100
+
+leste-config (1.99-1) unstable; urgency=medium
+
+  * pinephone: lower earpiece volume
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 10 Nov 2023 20:40:25 +0100
+
 leste-config (1.98-1) unstable; urgency=medium
 
   * n900: more UCM improvements - add fmtx, fix some earpiece bugs

@@ -298,16 +298,20 @@ SectionDevice."Headphones" {
 	Comment "Headset"
 	EnableSequence [
 		cset "name='Speaker Function' Off"
-		cset "name='Jack Function' Headphone"
+		cset "name='Jack Function' Headset"
 		cset "name='Earphone Switch' off"
 		cset "name='TPA6130A2 Headphone Playback Volume' 25"
-	]
+		cset "name='Input Select' ADC"
+		cset "name='PGA Capture Volume' 84,84"
+]
 
 	DisableSequence [
 #		cset "name='Earphone Switch' on"
 #		cset "name='Jack Function' Off"
 		cset "name='TPA6130A2 Headphone Playback Volume' 7"
-	]
+		cset "name='Input Select' Digital Mic"
+		cset "name='PGA Capture Volume' 118,118"	
+]
 
 	Value {
 		PlaybackVolume "PCM Playback Volume"

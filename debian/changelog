@@ -1,3 +1,9 @@
+leste-config (1.118-1) unstable; urgency=medium
+
+  * n900: use SD card swap for now
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 03 Aug 2024 11:51:59 +0200
+
 leste-config (1.117-1) unstable; urgency=medium
 
   * pulse: change SHM size to 8MiB, this fixes many audio problems

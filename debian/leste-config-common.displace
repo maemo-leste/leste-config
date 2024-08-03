@@ -7,6 +7,7 @@
 /etc/profile.d/gtk-maemo.sh.leste
 /etc/profile.d/libsdl.sh.leste
 /etc/profile.d/qt-maemo.sh.leste
+/etc/pulse/client.conf.d/00-leste.conf.leste
 /etc/pulse/daemon.conf.d/00-leste.conf.leste
 /etc/pulse/leste.pa.d/00-default.pa.leste
 /etc/pulse/leste.pa.leste

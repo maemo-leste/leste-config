@@ -1,4 +1,3 @@
-default-script-file=/etc/pulse/leste.pa
 # Set SHM size to 8MiB, otherwise we run out of space for connections
 # (presumably due to addr space limitations?
 # This has to be set both for client and daemon

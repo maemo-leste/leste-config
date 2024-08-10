@@ -1,3 +1,9 @@
+leste-config (1.119-1) unstable; urgency=medium
+
+  * n900: fix boot issues
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 10 Aug 2024 21:20:25 +0200
+
 leste-config (1.118-1) unstable; urgency=medium
 
   * n900: use SD card swap for now

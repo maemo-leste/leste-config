@@ -1,8 +1,0 @@
-#!/sbin/openrc-run
-
-name="leste-config-n900"
-
-start() {
-    #echo 1 > /sys/devices/system/cpu/cpufreq/boost
-    #echo 500000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
-}

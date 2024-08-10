@@ -1,3 +1,9 @@
+leste-config (1.120-1) unstable; urgency=medium
+
+  * n900: fix postinst
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 10 Aug 2024 22:10:07 +0200
+
 leste-config (1.119-1) unstable; urgency=medium
 
   * n900: fix boot issues

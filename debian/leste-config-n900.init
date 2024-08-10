@@ -3,6 +3,6 @@
 name="leste-config-n900"
 
 start() {
-    echo 512 > /sys/block/mmcblk0/queue/nr_requests
-    echo 512 > /sys/block/mmcblk1/queue/nr_requests
+    #echo 1 > /sys/devices/system/cpu/cpufreq/boost
+    #echo 500000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
 }

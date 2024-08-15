@@ -44,8 +44,8 @@ SectionVerb {
 		cset "name='Left AGC Decay time' 100ms"
 		cset "name='Right AGC Decay time' 100ms"
 		cset "name='De-emphasis Switch' off,off,"
-		cset "name='PGA Capture Volume' 0,0"
-		cset "name='PGA Capture Switch' off,off"
+		cset "name='PGA Capture Volume' 118,118"
+		cset "name='PGA Capture Switch' on,on"
 		cset "name='ADC HPF Cut-off' Disabled,Disabled"
 		cset "name='Output Driver Power-On time' 0us"
 		cset "name='Output Driver Ramp-up step' 0ms"
@@ -124,6 +124,25 @@ SectionVerb {
 	]
 }
 
+SectionDevice."PGA Capture" {
+        Comment "Internal Microphone"
+        EnableSequence [
+                cset "name='PGA Capture Switch' on"
+
+       ]
+
+        DisableSequence [
+                cset "name='PGA Capture Switch' off"
+
+        ]
+
+        Value {
+                CaptureChannels 2
+                CapturePriority 500
+                CapturePCM "hw:${CardId},0"
+
+        }
+}
 
 SectionDevice."Speaker" {
 	Comment "Internal Speaker"
@@ -141,7 +160,7 @@ SectionDevice."Speaker" {
 	Value {
 		PlaybackVolume "PCM Playback Volume"
 		PlaybackChannels 2
-		PlaybackPriority 500
+		PlaybackPriority300
 		PlaybackPCM "hw:${CardId},0"
 #		CapturePCM "hw:${CardId},0"
 
@@ -179,14 +198,18 @@ SectionDevice."Headphones" {
 	EnableSequence [
 		cset "name='Speaker Function' Off"
 		cset "name='Earphone Switch' off"
-		cset "name='Jack Function' Headphone"
+		cset "name='Jack Function' Headset"
 		cset "name='TPA6130A2 Headphone Playback Volume' 25"
+		cset "name='Input Select' ADC"
+		cset "name='PGA Capture Volume' 84,84"
 	]
 
 	DisableSequence [
 		cset "name='Speaker Function' On"
 		cset "name='Jack Function' Off"
 		cset "name='TPA6130A2 Headphone Playback Volume' 7"
+		cset "name='Input Select' Digital Mic"
+		cset "name='PGA Capture Volume' 118,118"
 	]
 
 	Value {

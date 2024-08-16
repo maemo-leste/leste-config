@@ -1,3 +1,9 @@
+leste-config (1.121-1) unstable; urgency=medium
+
+  * n900: enable headset microphone
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 16 Aug 2024 17:56:49 +0200
+
 leste-config (1.120-1) unstable; urgency=medium
 
   * n900: fix postinst

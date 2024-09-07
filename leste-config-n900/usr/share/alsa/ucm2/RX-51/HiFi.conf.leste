@@ -160,7 +160,7 @@ SectionDevice."Speaker" {
 	Value {
 		PlaybackVolume "PCM Playback Volume"
 		PlaybackChannels 2
-		PlaybackPriority300
+		PlaybackPriority 300
 		PlaybackPCM "hw:${CardId},0"
 #		CapturePCM "hw:${CardId},0"
 

@@ -1,3 +1,9 @@
+leste-config (1.122-1) unstable; urgency=medium
+
+  * n900: fix UCM2 typo
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Tue, 17 Sep 2024 14:43:34 +0200
+
 leste-config (1.121-1) unstable; urgency=medium
 
   * n900: enable headset microphone

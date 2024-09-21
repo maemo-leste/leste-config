@@ -1,3 +1,9 @@
+leste-config (1.123-1) unstable; urgency=medium
+
+  * n900: enable remixing
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 21 Sep 2024 11:58:56 +0200
+
 leste-config (1.122-1) unstable; urgency=medium
 
   * n900: fix UCM2 typo

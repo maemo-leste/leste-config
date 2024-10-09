@@ -1,0 +1,107 @@
+SectionVerb {
+	EnableSequence [
+		cset "name='Lineout Left Playback Route' off"
+		cset "name='Lineout Right Playback Route' off"
+		cset "name='EMU Left Playback Route' off"
+		cset "name='EMU Right Playback Route' off"
+		cset "name='Earpiece Playback Route' off"
+		cset "name='Ext Left Enable Switch' off"
+		cset "name='Ext Left Phase Invert Switch' off"
+		cset "name='Ext Mono Playback Switch' off"
+		cset "name='Ext Playback Volume' 0"
+		cset "name='Ext Right Enable Switch' off"
+		cset "name='Headset Left Playback Route' off"
+		cset "name='Headset Right Playback Route' off"
+		cset "name='HiFi Mono Playback Switch' off"
+		cset "name='HiFi Playback Volume' 8"
+		cset "name='Call Volume' 0"
+		cset "name='Hifi Left Phase Invert Switch' off"
+		cset "name='Left Capture Route' off"
+		cset "name='Right Capture Route' off"
+		cset "name='Speaker Left Playback Route' off"
+		cset "name='Speaker Right Playback Route' off"
+		cset "name='Voice Loopback Switch' off"
+		cset "name='Voice Playback Volume' 4"
+		cset "name='Mic1 Capture Volume' 0"
+		cset "name='Mic2 Capture Volume' 0"
+	]
+}
+
+SectionDevice."Speaker" {
+	Comment "Internal speaker"
+	EnableSequence [
+		cset "name='HiFi Playback Volume' 15"
+		cset "name='Lineout Left Playback Route' HiFi"
+		cset "name='Lineout Right Playback Route' HiFi"
+	]
+
+	DisableSequence [
+		cset "name='Lineout Left Playback Route' off"
+		cset "name='Lineout Right Playback Route' off"
+	]
+
+	Value {
+		PlaybackVolume "HiFi Playback Volume"
+		PlaybackChannels 2
+		PlaybackPriority 300
+		PlaybackPCM "hw:${CardId},0"
+	}
+}
+SectionDevice."Mic" {
+	Comment "Internal Microphone"
+	ConflictingDevice [
+		"Headset"
+	]
+	EnableSequence [
+		cset "name='Left Capture Route' 'Mic 2'"
+		cset "name='Right Capture Route' 'Mic 1'"
+	]
+	DisableSequence [
+		cset "name='Left Capture Route' off"
+		cset "name='Right Capture Route' off"
+	]
+	Value {
+		CapturePriority 500
+		CapturePCM "hw:${CardId},1"
+		CaptureChannels 2
+	}
+}
+SectionDevice."Headset" {
+	Comment "Headset Microphone"
+	ConflictingDevice [
+		"Mic"
+	]
+	EnableSequence [
+		cset "name='Right Capture Route' 'Headset Mic'"
+	]
+	DisableSequence [
+		cset "name='Right Capture Route' off"
+	]
+	Value {
+		CapturePriority 100
+		CapturePCM "hw:${CardId},1"
+		CaptureChannels 2
+		JackControl "Headphones Jack"
+	}
+}
+SectionDevice."Headphones" {
+	Comment "Headset"
+	EnableSequence [
+		cset "name='HiFi Playback Volume' 4"
+		cset "name='Headset Left Playback Route' HiFi"
+		cset "name='Headset Right Playback Route' HiFi"
+	]
+
+	DisableSequence [
+		cset "name='Headset Left Playback Route' off"
+		cset "name='Headset Right Playback Route' off"
+	]
+
+	Value {
+		PlaybackVolume "HiFi Playback Volume"
+		PlaybackChannels 2
+		PlaybackPriority 100
+		PlaybackPCM "hw:${CardId},0"
+		JackControl "Headphones Jack"
+	}
+}

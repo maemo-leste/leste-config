@@ -38,7 +38,7 @@ Architecture: all
 Section: droid4
 Depends: ${misc:Depends}, leste-config-common
 Provides: ${diverted-files}
-Conflicts: ${diverted-files}
+Conflicts: ${diverted-files}, leste-config-bionic, leste-config-droid3, leste-config-xt910, leste-config-xt912, leste-config-mz617
 Description: Maemo Leste configurations - Droid4
  This package contains configuration files for Maemo
  Leste on the Motorola Droid4.
@@ -48,7 +48,7 @@ Architecture: all
 Section: droid3
 Depends: ${misc:Depends}, leste-config-common
 Provides: ${diverted-files}
-Conflicts: ${diverted-files}
+Conflicts: ${diverted-files}, leste-config-bionic, leste-config-droid4, leste-config-xt910, leste-config-xt912, leste-config-mz617
 Description: Maemo Leste configurations - Droid4
  This package contains configuration files for Maemo
  Leste on the Motorola Droid3.
@@ -58,7 +58,7 @@ Architecture: all
 Section: bionic
 Depends: ${misc:Depends}, leste-config-common
 Provides: ${diverted-files}
-Conflicts: ${diverted-files}
+Conflicts: ${diverted-files}, leste-config-droid3, leste-config-droid4, leste-config-xt910, leste-config-xt912, leste-config-mz617
 Description: Maemo Leste configurations - Droid Bionic
  This package contains configuration files for Maemo
  Leste on the Motorola Bionic.
@@ -68,7 +68,7 @@ Architecture: all
 Section: razr
 Depends: ${misc:Depends}, leste-config-common
 Provides: ${diverted-files}
-Conflicts: ${diverted-files}
+Conflicts: ${diverted-files}, leste-config-bionic, leste-config-droid4, leste-config-droid3, leste-config-xt912, leste-config-mz617
 Description: Maemo Leste configurations - Razr
  This package contains configuration files for Maemo
  Leste on the Motorola Razr and Droid Razr, XT910
@@ -78,7 +78,7 @@ Architecture: all
 Section: razr
 Depends: ${misc:Depends}, leste-config-common
 Provides: ${diverted-files}
-Conflicts: ${diverted-files}
+Conflicts: ${diverted-files}, leste-config-bionic, leste-config-droid4, leste-config-droid3, leste-config-xt910, leste-config-mz617
 Description: Maemo Leste configurations - Razr
  This package contains configuration files for Maemo
  Leste on the Motorola Razr and Droid Razr, XT912
@@ -88,7 +88,7 @@ Architecture: all
 Section: xyboard
 Depends: ${misc:Depends}, leste-config-common
 Provides: ${diverted-files}
-Conflicts: ${diverted-files}
+Conflicts: ${diverted-files}, leste-config-bionic, leste-config-droid4, leste-config-droid3, leste-config-xt910, leste-config-xt912
 Description: Maemo Leste configurations - xyboard
  This package contains configuration files for Maemo
  Leste on the MZ617 xyboard/xoom tablet

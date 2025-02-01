@@ -1,3 +1,9 @@
+leste-config (1.127-1) unstable; urgency=medium
+
+  * leste-config: add /etc/apt/preferences.d
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 01 Feb 2025 13:04:23 +0100
+
 leste-config (1.126-1) unstable; urgency=medium
 
   * leste-config: enable qt HIM

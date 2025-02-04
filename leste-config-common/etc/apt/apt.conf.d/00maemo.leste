@@ -1,0 +1,4 @@
+// Don't open connections in parallel, that brings the little devices
+// down to their knees.
+//
+Acquire::Queue-Mode "access";

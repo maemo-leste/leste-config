@@ -1,3 +1,4 @@
+/etc/apt/apt.conf.d/00maemo.leste
 /etc/apt/preferences.d/pin-daedalus-extras.leste
 /etc/apt/preferences.d/pin-daedalus.leste
 /etc/dbus-1/system.d/ofono.conf.leste

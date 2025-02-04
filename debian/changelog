@@ -1,3 +1,9 @@
+leste-config (1.128-1) unstable; urgency=medium
+
+  * leste-config: disable parallel apt connections
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Tue, 04 Feb 2025 12:28:50 +0100
+
 leste-config (1.127-1) unstable; urgency=medium
 
   * leste-config: add /etc/apt/preferences.d

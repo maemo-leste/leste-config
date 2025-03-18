@@ -22,7 +22,6 @@ else
     fallocate -l 1g /swap
     mkswap /swap
     chmod 0600 /swap
-    swapon /swap
 
     echo "/swap    none          swap            sw                      0    0" >> /etc/fstab
 fi

@@ -1,4 +1,3 @@
-blacklist rx51-battery
-blacklist twl4030_ac
-blacklist twl4030_usb
-blacklist bq27000-battery
+blacklist rx51_battery
+blacklist bq27xxx_battery_hdq
+blacklist twl4030_charger

@@ -14,16 +14,13 @@ SectionVerb {
 		cset "name='Headset Right Playback Route' off"
 		cset "name='HiFi Mono Playback Switch' off"
 		cset "name='HiFi Playback Volume' 8"
-		cset "name='Call Volume' 0"
 		cset "name='Hifi Left Phase Invert Switch' off"
-		cset "name='Left Capture Route' off"
-		cset "name='Right Capture Route' off"
+#		cset "name='Left Capture Route' off"
+#		cset "name='Right Capture Route' off"
 		cset "name='Speaker Left Playback Route' off"
 		cset "name='Speaker Right Playback Route' off"
-		cset "name='Voice Loopback Switch' off"
-		cset "name='Voice Playback Volume' 4"
-		cset "name='Mic1 Capture Volume' 0"
-		cset "name='Mic2 Capture Volume' 0"
+#		cset "name='Mic1 Capture Volume' 0"
+#		cset "name='Mic2 Capture Volume' 0"
 	]
 }
 
@@ -47,43 +44,43 @@ SectionDevice."Speaker" {
 		PlaybackPCM "hw:${CardId},0"
 	}
 }
-SectionDevice."Mic" {
-	Comment "Internal Microphone"
-	ConflictingDevice [
-		"Headset"
-	]
-	EnableSequence [
-		cset "name='Left Capture Route' 'Mic 2'"
-		cset "name='Right Capture Route' 'Mic 1'"
-	]
-	DisableSequence [
-		cset "name='Left Capture Route' off"
-		cset "name='Right Capture Route' off"
-	]
-	Value {
-		CapturePriority 500
-		CapturePCM "hw:${CardId},1"
-		CaptureChannels 2
-	}
-}
-SectionDevice."Headset" {
-	Comment "Headset Microphone"
-	ConflictingDevice [
-		"Mic"
-	]
-	EnableSequence [
-		cset "name='Right Capture Route' 'Headset Mic'"
-	]
-	DisableSequence [
-		cset "name='Right Capture Route' off"
-	]
-	Value {
-		CapturePriority 100
-		CapturePCM "hw:${CardId},1"
-		CaptureChannels 2
-		JackControl "Headphones Jack"
-	}
-}
+#SectionDevice."Mic" {
+#	Comment "Internal Microphone"
+#	ConflictingDevice [
+#		"Headset"
+#	]
+#	EnableSequence [
+#		cset "name='Left Capture Route' 'Mic 2'"
+#		cset "name='Right Capture Route' 'Mic 1'"
+#	]
+#	DisableSequence [
+#		cset "name='Left Capture Route' off"
+#		cset "name='Right Capture Route' off"
+#	]
+#	Value {
+#		CapturePriority 500
+#		CapturePCM "hw:${CardId},1"
+#		CaptureChannels 2
+#	}
+#}
+#SectionDevice."Headset" {
+#	Comment "Headset Microphone"
+#	ConflictingDevice [
+#		"Mic"
+#	]
+#	EnableSequence [
+#		cset "name='Right Capture Route' 'Headset Mic'"
+#	]
+#	DisableSequence [
+#		cset "name='Right Capture Route' off"
+#	]
+#	Value {
+#		CapturePriority 100
+#		CapturePCM "hw:${CardId},1"
+#		CaptureChannels 2
+#		JackControl "Headphones Jack"
+#	}
+#}
 SectionDevice."Headphones" {
 	Comment "Headset"
 	EnableSequence [

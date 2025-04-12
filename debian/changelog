@@ -1,3 +1,11 @@
+leste-config (1.130-1) unstable; urgency=medium
+
+  * leste-config: n900: hildon-desktop transitions
+  * leste-config: n900: drop mac addr hack
+  * leste-config: n900: correct blacklist for power supply
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 12 Apr 2025 17:21:58 +0200
+
 leste-config (1.129-1) unstable; urgency=medium
 
   * leste-config: do not call swapon for n900

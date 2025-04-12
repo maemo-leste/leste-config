@@ -14,6 +14,7 @@
 /usr/share/alsa/ucm2/RX-51/RX-51.conf.leste
 /usr/share/alsa/ucm2/RX-51/VoiceCall.conf.leste
 /usr/share/hildon-desktop/shortcuts.ini.leste
+/usr/share/hildon-desktop/transitions.ini.leste
 /usr/share/sphone/sphone.ini.d/landscape-call.ini.leste
 /usr/share/X11/xorg.conf.d/40-xkb.conf.leste
 /usr/share/X11/xorg.conf.d/99-calibration.conf.leste

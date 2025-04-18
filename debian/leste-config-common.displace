@@ -17,7 +17,7 @@
 /etc/rsyslog.d/maemo-daemons.conf.leste
 /etc/sysctl.d/no-proactive-compaction.conf.leste
 /etc/sysctl.d/nosysrq.conf.leste
-/etc/UPower.conf.leste
+/etc/UPower/UPower.conf.leste
 /etc/wpa_supplicant/wpa_supplicant.conf.leste
 /home/user/.config/user-dirs.dirs.leste
 /usr/sbin/policy-rc.d.leste

@@ -36,4 +36,18 @@ PatternPowerKeyPress=5;5;1;1;0;50;0;50;128
 PatternTouchscreen= 10;3;0;1;50;10;15;50;255
 
 [Battery]
-CriticalVoltage=3200
+
+# The capacity_level reported by the fuel guage on the Nokia N900 uses the EDVF
+# and EDV1 flags from chip, which makes it the most reliable attribute to make
+# shutdown decisions. Relying on these flags also ensures discharge cycles are
+# always detected correctly.
+UseCapacityLevel=true
+
+# Shutdown currently takes a very long time on the N900. To prevent running the
+# battery down while waiting for shutdown, poweroff when capacity_level reports
+# "Low." Per the datasheet for the fuel gauge, this capacity level (EDV1)
+# represents 6.25%.
+CapacityLevelLowCritical=true
+
+# Disable percentage-based shutdown to always use capacity_level.
+EmptyPercentage=-1

@@ -1,1 +1,0 @@
-SUBSYSTEM=="input", ENV{DEVPATH}=="/devices/platform/lis3lv02d/input/input1/event1", ENV{IIO_SENSOR_PROXY_TYPE}+="input-accel", ENV{ACCEL_MOUNT_MATRIX}="-1, 0, 0; 0, -1, 0; 0, 0, 1"

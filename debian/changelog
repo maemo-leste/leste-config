@@ -1,3 +1,9 @@
+leste-config (1.134-1) unstable; urgency=medium
+
+  * leste-config: n900: update mce.ini.d
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Mon, 05 May 2025 10:56:29 +0200
+
 leste-config (1.133-1) unstable; urgency=medium
 
   * leste-config: common: Move UPower.conf

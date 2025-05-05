@@ -7,9 +7,7 @@
 /etc/modprobe.d/wire.conf.leste
 /etc/modules-load.d/nokia-modem.conf.leste
 /etc/pulse/daemon.conf.leste
-/etc/sysctl.d/n900-perf.conf.leste
 /lib/udev/rules.d/10-nokia-modem.rules.leste
-/lib/udev/rules.d/50-iio-sensor-proxy.rules.leste
 /usr/share/alsa/ucm2/RX-51/HiFi.conf.leste
 /usr/share/alsa/ucm2/RX-51/RX-51.conf.leste
 /usr/share/alsa/ucm2/RX-51/VoiceCall.conf.leste

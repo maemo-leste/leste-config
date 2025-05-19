@@ -1,3 +1,9 @@
+leste-config (1.135-1) unstable; urgency=medium
+
+  * leste-config: add pin for daedalus-devel
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Mon, 19 May 2025 14:25:02 +0200
+
 leste-config (1.134-1) unstable; urgency=medium
 
   * leste-config: n900: update mce.ini.d

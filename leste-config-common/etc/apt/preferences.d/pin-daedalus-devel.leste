@@ -1,0 +1,3 @@
+Package: *
+Pin: release o=Maemo Leste,n=daedalus-devel
+Pin-Priority: 1002

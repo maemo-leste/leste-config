@@ -1,3 +1,9 @@
+leste-config (1.138-1) unstable; urgency=medium
+
+  * leste-config: add hw clock sync after we get a new time
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 26 Jul 2025 01:39:53 +0200
+
 leste-config (1.137-1) unstable; urgency=medium
 
   * leste-config: fix pin priority

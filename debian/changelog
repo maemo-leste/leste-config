@@ -1,3 +1,9 @@
+leste-config (1.139-1) unstable; urgency=medium
+
+  * leste-config: add priority/pin for excalibur
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 05 Dec 2025 21:58:37 +0100
+
 leste-config (1.138-1) unstable; urgency=medium
 
   * leste-config: add hw clock sync after we get a new time

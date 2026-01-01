@@ -4,5 +4,4 @@ Section "InputClass"
 
 	Option "XKbModel" "nokiarx51"
 	Option "XKbLayout" "us"
-	Option "XKbOptions" ""
 EndSection

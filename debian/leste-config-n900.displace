@@ -8,6 +8,7 @@
 /etc/modules-load.d/nokia-modem.conf.leste
 /etc/pulse/daemon.conf.leste
 /lib/udev/rules.d/10-nokia-modem.rules.leste
+/lib/udev/rules.d/85-tsc2005-libinput.rules.leste
 /usr/share/alsa/ucm2/RX-51/HiFi.conf.leste
 /usr/share/alsa/ucm2/RX-51/RX-51.conf.leste
 /usr/share/alsa/ucm2/RX-51/VoiceCall.conf.leste
@@ -15,5 +16,4 @@
 /usr/share/hildon-desktop/transitions.ini.leste
 /usr/share/sphone/sphone.ini.d/landscape-call.ini.leste
 /usr/share/X11/xorg.conf.d/40-xkb.conf.leste
-/usr/share/X11/xorg.conf.d/99-calibration.conf.leste
 /usr/share/X11/xorg.conf.d/99-omap.conf.leste

@@ -1,3 +1,9 @@
+leste-config (1.140-1) unstable; urgency=medium
+
+  * leste-config: update displace
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 09 Jan 2026 16:21:58 +0100
+
 leste-config (1.139-1) unstable; urgency=medium
 
   * leste-config: add priority/pin for excalibur

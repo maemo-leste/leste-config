@@ -1,7 +1,7 @@
 /etc/apt/apt.conf.d/00maemo.leste
-/etc/apt/preferences.d/pin-daedalus-devel.leste
-/etc/apt/preferences.d/pin-daedalus-extras.leste
-/etc/apt/preferences.d/pin-daedalus.leste
+/etc/apt/preferences.d/pin-excalibur-devel.leste
+/etc/apt/preferences.d/pin-excalibur-extras.leste
+/etc/apt/preferences.d/pin-excalibur.leste
 /etc/dbus-1/system.d/ofono.conf.leste
 /etc/elogind/logind.conf.d/maemo-leste.conf.leste
 /etc/gtk-3.0/settings.ini.leste

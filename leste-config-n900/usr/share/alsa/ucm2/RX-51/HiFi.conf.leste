@@ -54,7 +54,7 @@ SectionVerb {
 		cset "name='McBSP2 Sidetone Channel 0 Volume' 0"
 		cset "name='McBSP2 Sidetone Channel 1 Volume' 0"
 		cset "name='Speaker Function' On"
-		cset "name='Input Select' Digital Mic"
+#		cset "name='Input Select' Digital Mic"
 		cset "name='Jack Function' Off"
 		cset "name='FM Transmitter Switch' off"
 		cset "name='Earphone Switch' off"
@@ -147,6 +147,7 @@ SectionDevice."PGA Capture" {
 SectionDevice."Speaker" {
 	Comment "Internal Speaker"
 	EnableSequence [
+		cset "name='Input Select' Digital Mic"
 		cset "name='Speaker Function' On"
 #		cset "name='Jack Function' Off"
 
@@ -208,7 +209,7 @@ SectionDevice."Headphones" {
 		cset "name='Speaker Function' On"
 		cset "name='Jack Function' Off"
 		cset "name='TPA6130A2 Headphone Playback Volume' 7"
-		cset "name='Input Select' Digital Mic"
+#		cset "name='Input Select' Digital Mic"
 		cset "name='PGA Capture Volume' 118,118"
 	]
 

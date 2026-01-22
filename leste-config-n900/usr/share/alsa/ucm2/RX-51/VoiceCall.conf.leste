@@ -248,11 +248,32 @@ SectionVerb {
 
 }
 
-SectionDevice."PGA Capture" {
+SectionDevice."InternalMic" {
         Comment "Internal Microphone"
+        EnableSequence [		 
+		cset "name='PGA Capture Switch' on"
+		cset "name='Input Select' Digital Mic"
+       ]
+
+        DisableSequence [
+                cset "name='PGA Capture Switch' off"
+
+        ]
+
+        Value {
+                CaptureChannels 2
+                CapturePriority 800
+                CapturePCM "hw:${CardId},0"
+
+        }
+}
+
+
+SectionDevice."ExternalMic" {
+        Comment "External Microphone"
         EnableSequence [
                 cset "name='PGA Capture Switch' on"
-
+		cset "name='Input Select' ADC"
        ]
 
         DisableSequence [
@@ -264,6 +285,7 @@ SectionDevice."PGA Capture" {
                 CaptureChannels 2
                 CapturePriority 500
                 CapturePCM "hw:${CardId},0"
+                JackControl "AV Jack"
 
         }
 }
@@ -272,8 +294,8 @@ SectionDevice."PGA Capture" {
 SectionDevice."Speaker" {
         Comment "Internal Speaker"
         EnableSequence [
-		cset "name='Input Select' Digital Mic"
-                cset "name='Earphone Switch' on"
+#		cset "name='Input Select' Digital Mic"
+		cset "name='Earphone Switch' on"
                 cset "name='Jack Function' Off"
                 cset "name='Speaker Function' Off"
 
@@ -293,7 +315,7 @@ SectionDevice."Speaker" {
 
         }
 }
-
+	
 
 SectionDevice."Headphones" {
 	Comment "Headset"
@@ -302,7 +324,7 @@ SectionDevice."Headphones" {
 		cset "name='Jack Function' Headset"
 		cset "name='Earphone Switch' off"
 		cset "name='TPA6130A2 Headphone Playback Volume' 25"
-		cset "name='Input Select' ADC"
+#		cset "name='Input Select' ADC"
 		cset "name='PGA Capture Volume' 84,84"
 ]
 

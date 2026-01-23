@@ -1,3 +1,9 @@
+leste-config (1.141-1) unstable; urgency=medium
+
+  * leste-config: make ntpdate script executable
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 23 Jan 2026 15:41:33 +0100
+
 leste-config (1.138-1) unstable; urgency=medium
 
   * leste-config: add hw clock sync after we get a new time

@@ -5,6 +5,7 @@
 /etc/dbus-1/system.d/ofono.conf.leste
 /etc/elogind/logind.conf.d/maemo-leste.conf.leste
 /etc/gtk-3.0/settings.ini.leste
+/etc/init.d/gpsd.leste
 /etc/network/if-up.d/ntpsec-ntpdate.leste
 /etc/network/interfaces.leste
 /etc/no_lg_reboots.leste

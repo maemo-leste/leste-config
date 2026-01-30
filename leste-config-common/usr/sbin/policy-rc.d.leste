@@ -15,6 +15,7 @@ blacklist_restart = [
 
 blacklist_start = [
     'tor', # We start this ourselves via icd2
+    'gpsd', # gpsd is started on-demand by location-daemon
 ]
 
 initscript = sys.argv[1]

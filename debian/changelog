@@ -1,3 +1,9 @@
+leste-config (1.146-1) unstable; urgency=medium
+
+  * leste-config: more gpsd fixes and n900 mixer improvements
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 01 Feb 2026 17:46:36 +0100
+
 leste-config (1.143-1) unstable; urgency=medium
 
   * leste-config: split n900 int/ext microphone

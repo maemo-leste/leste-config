@@ -4,7 +4,7 @@
 
 [Modules]
 
-ModulesDevice=led-lysti;led-dbus;iio-als;evdevvibrator;button-backlight;battery-guard
+ModulesDevice=led-lysti;led-dbus;iio-als;evdevvibrator;button-backlight;battery-guard;iio-proximity
 
 [Backlights]
 

@@ -103,6 +103,16 @@ Description: Maemo Leste configurations - Pinephone
  This package contains configuration files for Maemo
  Leste on the Pine64 Pinephone.
 
+Package: leste-config-pixel3a
+Architecture: all
+Section: pixel3a
+Depends: ${misc:Depends}, leste-config-common, iw
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Maemo Leste configurations - pixel3a
+ This package contains configuration files for Maemo
+ Leste on the Google Pixel 3a.
+
 Package: leste-config-pinetab
 Architecture: all
 Section: pinephone

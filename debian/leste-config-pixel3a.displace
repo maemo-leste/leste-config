@@ -1,0 +1,14 @@
+/usr/share/hexagonrpcd/hexagonrpcd-adsp-sensorspd.conf.leste
+/usr/share/hexagonrpcd/hexagonrpcd-adsp-rootpd.conf.leste
+/usr/share/hexagonrpcd/hexagonrpcd-sdsp.conf.leste
+/usr/share/alsa/ucm2/Google/blueline/blueline.conf.leste
+/usr/share/alsa/ucm2/Google/blueline/HiFi.conf.leste
+/usr/share/alsa/ucm2/Google/sargo/HiFi.conf.leste
+/usr/share/alsa/ucm2/Google/sargo/VoiceCall.conf.leste
+/usr/share/alsa/ucm2/Google/sargo/sargo.conf.leste
+/lib/udev/rules.d/10-fastrpc.rules.leste
+/lib/udev/rules.d/81-libssc-google-sargo.rules.leste
+/etc/mce/mce.ini.d/70-g3a.ini.leste
+/etc/X11/Xsession.d/90-scale-dsi.leste
+/etc/X11/Xsession.d/90-dpi.leste
+/etc/conf.d/hexagonrpcd-adsp-sensorspd.leste

@@ -1,0 +1,97 @@
+SectionVerb {
+	EnableSequence [
+		cset "name='QUAT_TDM_RX_0 Audio Mixer MultiMedia1' 1" 	# Speaker Playback
+		# cset "name='MultiMedia2 Mixer SLIMBUS_0_TX' 1"        # Bottom Mic Capture
+
+		# Q6Voice Routes for Call Audio Setup
+		# cset "name='QUAT_TDM_RX_0 Voice Mixer VoiceMMode1' 1"
+		# cset "name='VoiceMMode1 Capture Mixer SLIMBUS_0_TX' 1"
+
+		# Left/Top Speaker Related
+		cset "name='Left LDM Select Switch' 1"
+		cset "name='Left PDM LDM Enter Ramp Switch' 1"
+		cset "name='Left PDM LDM Exit Ramp Switch' 1"
+		cset "name='Left Amp Gain Zero-Cross Switch' 1"
+		cset "name='Left Channel Mux' RX1"
+		cset "name='Left ASPTX1SRC' Zero Fill"
+		cset "name='Left ASPTX2SRC' Zero Fill"
+		cset "name='Left ASPTX3SRC' Zero Fill"
+		cset "name='Left ASPTX4SRC' VMON"
+		cset "name='Left ASPTX5SRC' IMON"
+		cset "name='Left ASPTX6SRC' VPMON"
+		
+		# Right/Bottom Speaker Related
+		cset "name='Right LDM Select Switch' 1"
+		cset "name='Right PDM LDM Enter Ramp Switch' 1"
+		cset "name='Right PDM LDM Exit Ramp Switch' 1"
+		cset "name='Right Amp Gain Zero-Cross Switch' 1"
+		cset "name='Right Channel Mux' RX2"
+		cset "name='Right ASPTX1SRC' VMON"
+		cset "name='Right ASPTX2SRC' IMON"
+		cset "name='Right ASPTX3SRC' VPMON"
+		cset "name='Right ASPTX4SRC' 'Zero Fill'"
+		cset "name='Right ASPTX5SRC' 'Zero Fill'"
+		cset "name='Right ASPTX6SRC' 'Zero Fill'"
+
+		# Phone Bottom Mic Default Enable
+		# cset "name='AIF1_CAP Mixer SLIM TX7' 1"
+		# cset "name='CDC_IF TX7 MUX' DEC7"
+	]
+
+	DisableSequence [
+		cset "name='QUAT_TDM_RX_0 Audio Mixer MultiMedia1' 0" 	# Speaker Playback
+		# cset "name='MultiMedia2 Mixer SLIMBUS_0_TX' 0"        # Bottom Mic Capture
+
+		# Phone Bottom Mic Default Disable
+		# cset "name='CDC_IF TX7 MUX' ZERO"
+	]
+
+	Value {
+		TQ "HiFi"
+	}
+}
+
+SectionDevice."Speaker1" {
+	Comment "Speakers Stereo Output"
+	
+	EnableSequence [
+		cset "name='Left AMP Enable Switch' 1"
+		cset "name='Left Analog PCM Volume' 17"
+		cset "name='Right AMP Enable Switch' 1"
+		cset "name='Right Analog PCM Volume' 17"
+	]
+
+	DisableSequence [
+	 	cset "name='Left AMP Enable Switch' 0"
+	 	cset "name='Left Analog PCM Volume' 0"
+	 	cset "name='Right AMP Enable Switch' 0"
+	 	cset "name='Right Analog PCM Volume' 0"
+	]
+
+	Value {
+		PlaybackPCM "hw:${CardId},0"
+		PlaybackPriority 100
+	}
+}
+
+# SectionDevice."Mic1" {
+# 	Comment "Phone Bottom Mic"
+
+# 	EnableSequence [
+# 		cset "name='ADC MUX7' DMIC"
+# 		cset "name='DMIC MUX7' DMIC4"
+#         cset "name='IIR0 INP0 MUX' DEC7"
+# 	]
+
+# 	DisableSequence [
+# 		cset "name='DMIC MUX7' ZERO"
+# 		cset "name='DMIC4 MUX7' ZERO"
+#         cset "name='IIR0 INP0 MUX' ZERO"
+# 	]
+
+# 	Value {
+# 		CapturePCM "hw:${CardId},1"
+# 		CaptureMixerElem "DEC7"
+# 		CapturePriority 100
+# 	}
+# }

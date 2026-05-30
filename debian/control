@@ -113,6 +113,16 @@ Description: Maemo Leste configurations - pixel3a
  This package contains configuration files for Maemo
  Leste on the Google Pixel 3a.
 
+Package: leste-config-oneplus6
+Architecture: all
+Section: oneplus
+Depends: ${misc:Depends}, leste-config-common, iw
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Maemo Leste configurations - oneplus6
+ This package contains configuration files for Maemo
+ Leste on the OnePlus6.
+
 Package: leste-config-pinetab
 Architecture: all
 Section: pinephone

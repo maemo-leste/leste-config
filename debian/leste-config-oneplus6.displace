@@ -1,0 +1,9 @@
+/usr/share/hexagonrpcd/hexagonrpcd-adsp-sensorspd.conf.leste
+/usr/share/hexagonrpcd/hexagonrpcd-adsp-rootpd.conf.leste
+/usr/share/hexagonrpcd/hexagonrpcd-sdsp.conf.leste
+/lib/udev/rules.d/10-fastrpc.rules.leste
+/lib/udev/rules.d/81-libssc-oneplus.rules.leste
+/etc/mce/mce.ini.d/70-oneplus.ini.leste
+/etc/X11/Xsession.d/90-scale-dsi.leste
+/etc/X11/Xsession.d/90-dpi.leste
+/etc/conf.d/hexagonrpcd-adsp-sensorspd.leste

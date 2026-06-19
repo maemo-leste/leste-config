@@ -262,7 +262,7 @@ SectionDevice."InternalMic" {
 
         Value {
                 CaptureChannels 2
-                CapturePriority 800
+                CapturePriority 500
                 CapturePCM "hw:${CardId},0"
 
         }
@@ -283,7 +283,7 @@ SectionDevice."ExternalMic" {
 
         Value {
                 CaptureChannels 2
-                CapturePriority 500
+                CapturePriority 800
                 CapturePCM "hw:${CardId},0"
                 JackControl "AV Jack"
 
@@ -291,13 +291,13 @@ SectionDevice."ExternalMic" {
 }
 
 
-SectionDevice."Speaker" {
-        Comment "Internal Speaker"
+SectionDevice."Earpiece" {
+        Comment "Earpiece"
         EnableSequence [
 #		cset "name='Input Select' Digital Mic"
 		cset "name='Earphone Switch' on"
-                cset "name='Jack Function' Off"
-                cset "name='Speaker Function' Off"
+                #cset "name='Jack Function' Off"
+                #cset "name='Speaker Function' Off"
 
        ]
 
@@ -320,9 +320,9 @@ SectionDevice."Speaker" {
 SectionDevice."Headphones" {
 	Comment "Headset"
 	EnableSequence [
-		cset "name='Speaker Function' Off"
+		#cset "name='Speaker Function' Off"
 		cset "name='Jack Function' Headset"
-		cset "name='Earphone Switch' off"
+		#cset "name='Earphone Switch' off"
 		cset "name='TPA6130A2 Headphone Playback Volume' 25"
 #		cset "name='Input Select' ADC"
 		cset "name='PGA Capture Volume' 84,84"
@@ -330,8 +330,8 @@ SectionDevice."Headphones" {
 
 	DisableSequence [
 #		cset "name='Earphone Switch' on"
-#		cset "name='Jack Function' Off"
-		cset "name='TPA6130A2 Headphone Playback Volume' 7"
+		cset "name='Jack Function' Off"
+		cset "name='TPA6130A2 Headphone Playback Volume' 0"
 #		cset "name='Input Select' Digital Mic"
 		cset "name='PGA Capture Volume' 118,118"	
 ]
@@ -339,12 +339,36 @@ SectionDevice."Headphones" {
 	Value {
 		PlaybackVolume "PCM Playback Volume"
 		PlaybackChannels 2
-		PlaybackPriority 100
+		PlaybackPriority 500
 		PlaybackPCM "hw:${CardId},0"
 		JackControl "AV Jack"
 #		CapturePCM "hw:${CardId},0"
 
 	}
+}
+
+SectionDevice."Speaker" {
+        Comment "Internal Speaker"
+        EnableSequence [
+#               cset "name='Input Select' Digital Mic"
+                cset "name='Speaker Function' On"
+#               cset "name='Jack Function' Off"
+
+        ]
+
+        DisableSequence [
+                cset "name='Speaker Function' Off"
+#               cset "name='Jack Function' Off"
+        ]
+
+        Value {
+                PlaybackVolume "PCM Playback Volume"
+                PlaybackChannels 2
+                PlaybackPriority 100
+                PlaybackPCM "hw:${CardId},0"
+#               CapturePCM "hw:${CardId},0"
+
+        }
 }
 
 # cd /usr/share/alsa/ucm2/RX-51

@@ -188,7 +188,7 @@ SectionDevice."Speaker" {
 	Value {
 		PlaybackVolume "PCM Playback Volume"
 		PlaybackChannels 2
-		PlaybackPriority 300
+		PlaybackPriority 100
 		PlaybackPCM "hw:${CardId},0"
 #		CapturePCM "hw:${CardId},0"
 
@@ -200,7 +200,7 @@ SectionDevice."FMTX" {
         EnableSequence [
                 cset "name='FM Transmitter Switch' on"
                 cset "name='Jack Function' Headphone"
-                cset "name='Speaker Function' Off"
+                #cset "name='Speaker Function' Off"
 #               cset "name='Jack Function' Off"
 
         ]
@@ -214,7 +214,7 @@ SectionDevice."FMTX" {
         Value {
                 PlaybackVolume "PCM Playback Volume"
                 PlaybackChannels 2
-                PlaybackPriority 200
+                PlaybackPriority 10
                 PlaybackPCM "hw:${CardId},0"
  #               CapturePCM "hw:${CardId},0"
 	}
@@ -224,8 +224,8 @@ SectionDevice."FMTX" {
 SectionDevice."Headphones" {
 	Comment "Headset"       
 	EnableSequence [
-		cset "name='Speaker Function' Off"
-		cset "name='Earphone Switch' off"
+		#cset "name='Speaker Function' Off"
+		#cset "name='Earphone Switch' off"
 		cset "name='Jack Function' Headset"
 		cset "name='TPA6130A2 Headphone Playback Volume' 25"
 #		cset "name='Input Select' ADC"
@@ -233,9 +233,9 @@ SectionDevice."Headphones" {
 	]
 
 	DisableSequence [
-		cset "name='Speaker Function' On"
+		#cset "name='Speaker Function' On"
 		cset "name='Jack Function' Off"
-		cset "name='TPA6130A2 Headphone Playback Volume' 7"
+		cset "name='TPA6130A2 Headphone Playback Volume' 0"
 #		cset "name='Input Select' Digital Mic"
 		cset "name='PGA Capture Volume' 118,118"
 	]
@@ -243,7 +243,7 @@ SectionDevice."Headphones" {
 	Value {
 		PlaybackVolume "PCM Playback Volume"
 		PlaybackChannels 2
-		PlaybackPriority 100
+		PlaybackPriority 300
 		PlaybackPCM "hw:${CardId},0"
 #		CapturePCM "hw:${CardId},0"		
 		JackControl "AV Jack"

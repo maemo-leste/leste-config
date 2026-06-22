@@ -11,11 +11,14 @@
 # Syntax version is reset for the master configuration file.
 #
 
-Syntax 3
+Syntax 4
 
 Define.V1 ""		# non-empty string to enable ucm v1 paths
+Define.V2ConfD yes      # empty string to disable
 Define.V2Module yes	# empty string to disable
 Define.V2Name yes	# empty string to disable
+
+Include.libgen.File "/lib/generic.conf"  # private alsa-lib configuration
 
 If.driver {
 	Condition {
@@ -29,6 +32,10 @@ If.driver {
 		#   ucm2/${OpenName}/${OpenName}.conf
 		#
 		UseCasePath {
+			virt {
+				Directory "conf.virt.d"
+				File "${OpenName}.conf"
+			}
 			legacy {
 				Directory "${OpenName}"
 				File "${OpenName}.conf"
@@ -44,6 +51,33 @@ If.driver {
 		#   ucm2/${CardDriver}/${CardLongName}.conf
 		#   ucm2/${CardDriver}/${CardDriver}.conf
 		#
+		If.V2ConfD {
+			Condition {
+				Type String
+				Empty "${var:V2ConfD}"
+			}
+			False {
+				Define.Driver "${CardDriver}"
+				If.nodrv {
+					Condition {
+						Type String
+						Empty "${var:Driver}"
+					}
+					True.Define {
+						KernelDriverPath "class/sound/card${CardNumber}/device/driver"
+						Driver "${sys:$KernelDriverPath}"
+					}
+				}
+				UseCasePath.confd1 {
+					Directory "conf.d/${var:Driver}"
+					File "${CardLongName}.conf"
+				}
+				UseCasePath.confd2 {
+					Directory "conf.d/${var:Driver}"
+					File "${var:Driver}.conf"
+				}
+			}
+		}
 
 		If.V2Module {
 			Condition {

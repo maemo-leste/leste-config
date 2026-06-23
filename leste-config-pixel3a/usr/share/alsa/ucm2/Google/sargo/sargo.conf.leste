@@ -1,0 +1,55 @@
+Syntax 3
+
+SectionUseCase."HiFi" {
+	File "/Google/sargo/HiFi.conf"
+	Comment "HiFi audio"
+}
+
+SectionUseCase."Voice Call" {
+	File "/Google/sargo/VoiceCall.conf"
+	Comment "Voice calls"
+}
+
+# Volume defaults should be declared in the boot sequence so they can be
+# overriden by the user.
+BootSequence [
+	# Earpiece and Speaker
+	cset "name='Top Analog PCM Volume' 17"
+	cset "name='Top Digital PCM Volume' 67%"
+	cset "name='Bottom Analog PCM Volume' 17"
+	cset "name='Bottom Digital PCM Volume' 67%"
+
+	# Headphones
+	cset "name='Digital RX1 Digital Volume' 84"
+	cset "name='Digital RX2 Digital Volume' 84"
+
+	# Headset Microphone
+	cset "name='Analog ADC2 Volume' 8"
+
+	# Built-in Microphone
+	cset "name='ADC1 Capture Volume' 45"
+	cset "name='ADC2 Capture Volume' 45"
+]
+
+FixedBootSequence [
+	cset "name='Top Amp Gain Zero-Cross Switch' 1"
+	cset "name='Bottom Amp Gain Zero-Cross Switch' 1"
+
+	cset "name='Top PDM LDM Enter Ramp Switch' 1"
+	cset "name='Bottom PDM LDM Enter Ramp Switch' 1"
+
+	cset "name='Top PDM LDM Exit Ramp Switch' 1"
+	cset "name='Bottom PDM LDM Exit Ramp Switch' 1"
+
+	cset "name='Top LDM Select Switch' 1"
+	cset "name='Bottom LDM Select Switch' 1"
+
+	cset "name='Top Channel Mux' RX1"
+	cset "name='Bottom Channel Mux' RX2"
+
+	cset "name='Analog RDAC2 MUX' RX2"
+
+	# Built-in Microphone
+	cset "name='Stereo1 DMIC Mux' DMIC1"
+	cset "name='Stereo2 DMIC Mux' DMIC1"
+]

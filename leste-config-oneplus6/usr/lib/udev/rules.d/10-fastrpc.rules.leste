@@ -1,0 +1,7 @@
+SUBSYSTEM=="misc", KERNEL=="fastrpc-*", OWNER="fastrpc", GROUP="fastrpc", MODE="600"
+
+SUBSYSTEM=="misc", KERNEL=="fastrpc-adsp*", ENV{IIO_SENSOR_PROXY_TYPE}+="ssc-accel ssc-light ssc-proximity ssc-compass"
+SUBSYSTEM=="misc", KERNEL=="fastrpc-sdsp*", ENV{IIO_SENSOR_PROXY_TYPE}+="ssc-accel ssc-light ssc-proximity ssc-compass"
+
+# Be compatible with the fix to CVE 2024-41024.
+SUBSYSTEM=="misc", KERNEL=="fastrpc-adsp-secure", SYMLINK="fastrpc-adsp"

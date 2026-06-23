@@ -1,0 +1,12 @@
+# Invert the acceleration so it is directed downwards, at rest on a planet.
+# This is for compatibility with iio-sensor-proxy.
+#
+# https://gitlab.freedesktop.org/hadess/iio-sensor-proxy/-/issues/375
+SUBSYSTEM=="misc", KERNEL=="fastrpc-adsp*", ENV{ACCEL_MOUNT_MATRIX}="-1, 0, 0; 0, -1, 0; 0, 0, -1"
+
+# Be compatible with the fix to CVE 2024-41024.
+SUBSYSTEM=="misc", KERNEL=="fastrpc-adsp-secure", SYMLINK="fastrpc-adsp"
+
+# hmmm
+SUBSYSTEM=="misc", KERNEL=="fastrpc-adsp*", ENV{IIO_SENSOR_PROXY_TYPE}+="ssc-accel ssc-light ssc-proximity ssc-compass"
+SUBSYSTEM=="misc", KERNEL=="fastrpc-sdsp*", ENV{IIO_SENSOR_PROXY_TYPE}+="ssc-accel ssc-light ssc-proximity ssc-compass"

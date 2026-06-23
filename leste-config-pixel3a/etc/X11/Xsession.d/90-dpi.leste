@@ -1,0 +1,3 @@
+xrdb -merge <<EOF
+Xft.dpi: 96
+EOF

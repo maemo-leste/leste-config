@@ -1,0 +1,26 @@
+Syntax 4
+
+SectionUseCase."HiFi" {
+	File "/Google/blueline/HiFi.conf"
+	Comment "HiFi quality Music."
+}
+
+Include.card-init.File "/lib/card-init.conf"
+Include.ctl-remap.File "/lib/ctl-remap.conf"
+
+# BootSequence [
+# 	# Phone Bottom Mic Default Volume
+# 	cset "name='ADC3 Volume' 16"
+# 	cset "name='DEC7 Volume' 80"
+# ]
+
+# LibraryConfig.remap.Config {
+
+# 	ctl.default.map {
+# 		# Merge two mono controls into one stereo
+# 		"name='HP Digital Volume'" {
+# 			"name='RX1 Digital Volume'".vindex.0 0
+# 			"name='RX2 Digital Volume'".vindex.1 0
+# 		}
+# 	}
+# }

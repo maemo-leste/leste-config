@@ -1,3 +1,9 @@
+leste-config (1.151-1) unstable; urgency=medium
+
+  * leste-config: pixel3a, and initial oneplus6 config
+
+ -- Sander <sander@kroket.io>  Tue, 23 Jun 2026 23:02:49 +0200
+
 leste-config (1.150-1) unstable; urgency=medium
 
   * leste-config: sphone.ini.d: enable dtmf ui

@@ -1,3 +1,4 @@
+export QT_QPA_PLATFORMTHEME=maemo5
 export QT_STYLE_OVERRIDE=maemo5
 export QT_QPA_PLATFORM=maemo
 export QT_IM_MODULE=him

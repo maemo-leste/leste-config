@@ -1,0 +1,4 @@
+ACTION=="add", SUBSYSTEM=="net", KERNEL=="rmnet_ipa0", \
+  RUN+="/sbin/ip link add link rmnet_ipa0 name rmnet_data0 type rmnet mux_id 1", \
+  RUN+="/sbin/ip link add link rmnet_ipa0 name rmnet_data1 type rmnet mux_id 2", \
+  RUN+="/sbin/ip link add link rmnet_ipa0 name rmnet_data2 type rmnet mux_id 3"

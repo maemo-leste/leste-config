@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="bluetooth", KERNEL=="hci0", \
+	  RUN+="/usr/bin/bootmac --bluetooth"

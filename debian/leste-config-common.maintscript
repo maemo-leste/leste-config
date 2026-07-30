@@ -1,2 +1,8 @@
 rm_conffile /etc/profile.d/xdg-runtime.sh.leste 1.88-1~
-
+rm_conffile /etc/profile.d/xdg-runtime.sh.leste 1.88-1~
+rm_conffile /etc/apt/preferences.d/pin-daedalus-devel.leste 1.153-1~
+rm_conffile /etc/apt/preferences.d/pin-daedalus-extras.leste 1.153-1~
+rm_conffile /etc/apt/preferences.d/pin-daedalus.leste 1.153-1~
+rm_conffile /etc/apt/preferences.d/pin-excalibur-devel.leste 1.153-1~
+rm_conffile /etc/apt/preferences.d/pin-excalibur-extras.leste 1.153-1~
+rm_conffile /etc/apt/preferences.d/pin-excalibur.leste 1.153-1~

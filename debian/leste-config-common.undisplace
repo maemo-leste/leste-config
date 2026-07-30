@@ -1,1 +1,7 @@
+/etc/apt/preferences.d/pin-excalibur-devel.leste
+/etc/apt/preferences.d/pin-excalibur-extras.leste
+/etc/apt/preferences.d/pin-excalibur.leste
+/etc/apt/preferences.d/pin-daedalus-devel.leste
+/etc/apt/preferences.d/pin-daedalus-extras.leste
+/etc/apt/preferences.d/pin-daedalus.leste
 /etc/profile.d/xdg-runtime.sh.leste

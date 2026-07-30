@@ -1,3 +1,11 @@
+leste-config (1.153-1) unstable; urgency=medium
+
+  * common: reintroduce apt pins, but this time as configuration files
+  * n900: mce: shine PowerOff LED until system turns off
+  * pixel3/oneplus6: fix bluetooth, udev rule to enable it
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Tue, 30 Jul 2026 15:25:31 +0300
+
 leste-config (1.152-1) unstable; urgency=medium
 
   * leste-config: remove apt pins

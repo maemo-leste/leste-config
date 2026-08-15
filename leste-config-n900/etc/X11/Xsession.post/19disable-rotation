@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Then N900 display driver is unable to handle rotation, therefore ensure
+# Hildon desktop will not attempt to rotate when the accelerometer is active
+/usr/bin/gconftool-2 --set --type bool /apps/osso/hildon-desktop/ui_can_rotate false

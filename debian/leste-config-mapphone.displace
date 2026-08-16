@@ -12,7 +12,7 @@
 /usr/share/alsa/ucm2/Mapphone_Audio/HiFi.conf.leste
 /usr/share/alsa/ucm2/Mapphone_Audio/Mapphone_Audio.conf.leste
 /usr/share/alsa/ucm2/Mapphone_Audio/VoiceCall.conf.leste
-/usr/share/alsa/ucm2/Mapphone_Tablet_Audio/HiFi.conf.leste
-/usr/share/alsa/ucm2/Mapphone_Tablet_Audio/Mapphone_Tablet_Audio.conf.leste
+/usr/share/alsa/ucm2/Mapphone_Tablet/HiFi.conf.leste
+/usr/share/alsa/ucm2/Mapphone_Tablet/Mapphone_Tablet.conf.leste
 /usr/share/hildon-desktop/shortcuts.ini.leste
 /usr/share/X11/xorg.conf.d/99-omap.conf.leste

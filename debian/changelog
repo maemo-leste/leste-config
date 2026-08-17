@@ -1,3 +1,10 @@
+leste-config (1.154-1) unstable; urgency=medium
+
+  * mapphones: Fix ucm2
+  * mapphones: remove blacklist-bluetooth.conf
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Tue, 30 Jul 2026 15:25:31 +0300
+
 leste-config (1.153-1) unstable; urgency=medium
 
   * common: reintroduce apt pins, but this time as configuration files

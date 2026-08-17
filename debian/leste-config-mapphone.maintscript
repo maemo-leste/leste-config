@@ -1,1 +1,2 @@
 rm_conffile /etc/modprobe.d/blacklist-bluetooth.conf.leste 1.154-1~
+rm_conffile /etc/udev/hwdb.d/50-keyboard-modifiers.hwdb.leste 1.155-1~

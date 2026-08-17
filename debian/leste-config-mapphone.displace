@@ -14,5 +14,7 @@
 /usr/share/alsa/ucm2/Mapphone_Audio/VoiceCall.conf.leste
 /usr/share/alsa/ucm2/Mapphone_Tablet_Audio/HiFi.conf.leste
 /usr/share/alsa/ucm2/Mapphone_Tablet_Audio/Mapphone_Tablet_Audio.conf.leste
+/usr/share/alsa/ucm2/OMAP/snd-soc-omap-hdmi/HiFi.conf.leste
+/usr/share/alsa/ucm2/OMAP/snd-soc-omap-hdmi/snd-soc-omap-hdmi.conf.leste
 /usr/share/hildon-desktop/shortcuts.ini.leste
 /usr/share/X11/xorg.conf.d/99-omap.conf.leste

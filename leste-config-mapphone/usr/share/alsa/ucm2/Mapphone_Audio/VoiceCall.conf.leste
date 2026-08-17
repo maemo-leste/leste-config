@@ -66,7 +66,7 @@ SectionDevice."Speaker" {
 	Value {
 		PlaybackVolume "Call Volume"
 		PlaybackChannels 2
-		PlaybackPriority 300
+		PlaybackPriority 200
 		PlaybackPCM "hw:${CardId},0"
 	}
 }
@@ -88,7 +88,7 @@ SectionDevice."Headphones" {
 	Value {
 		PlaybackVolume "Call Volume"
 		PlaybackChannels 2
-		PlaybackPriority 100
+		PlaybackPriority 200
 		PlaybackPCM "hw:${CardId},0"
 		JackControl "Headphones Jack"
 	}

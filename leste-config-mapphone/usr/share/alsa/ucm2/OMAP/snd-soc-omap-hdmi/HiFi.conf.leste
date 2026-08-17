@@ -1,0 +1,16 @@
+Syntax 3
+
+SectionVerb {
+    Comment "HDMI Audio"
+}
+
+SectionDevice."HDMI" {
+    Comment "HDMI Output"
+
+    Value {
+	PlaybackPCM "hw:${CardId},0"
+	PlaybackChannels 2
+	PlaybackPriority 300
+	JackControl "HDMI Jack"
+    }
+}

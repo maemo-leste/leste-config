@@ -26,7 +26,6 @@ SectionVerb {
 		cset "name='Mic2 Capture Volume' 0"
 	]
 }
-
 SectionDevice."Speaker" {
 	Comment "Internal speaker"
 	EnableSequence [
@@ -43,27 +42,7 @@ SectionDevice."Speaker" {
 	Value {
 		PlaybackVolume "HiFi Playback Volume"
 		PlaybackChannels 2
-		PlaybackPriority 300
-		PlaybackPCM "hw:${CardId},0"
-	}
-}
-SectionDevice."Earpiece" {
-	Comment "Internal Earpiece"
-	EnableSequence [
-		cset "name='HiFi Playback Volume' 4"
-		cset "name='HiFi Mono Playback Switch' on"
-		cset "name='Earpiece Playback Route' HiFi"
-	]
-
-	DisableSequence [
-		cset "name='Earpiece Playback Route' off"
-		cset "name='HiFi Mono Playback Switch' off"
-	]
-
-	Value {
-		PlaybackVolume "HiFi Playback Volume"
-		PlaybackChannels 2
-		PlaybackPriority 200
+		PlaybackPriority 100
 		PlaybackPCM "hw:${CardId},0"
 	}
 }
@@ -81,7 +60,7 @@ SectionDevice."Mic" {
 		cset "name='Right Capture Route' off"
 	]
 	Value {
-		CapturePriority 500
+		CapturePriority 100
 		CapturePCM "hw:${CardId},1"
 		CaptureChannels 2
 	}
@@ -98,7 +77,7 @@ SectionDevice."Headset" {
 		cset "name='Right Capture Route' off"
 	]
 	Value {
-		CapturePriority 100
+		CapturePriority 200
 		CapturePCM "hw:${CardId},1"
 		CaptureChannels 2
 		JackControl "Headphones Jack"
@@ -120,7 +99,7 @@ SectionDevice."Headphones" {
 	Value {
 		PlaybackVolume "HiFi Playback Volume"
 		PlaybackChannels 2
-		PlaybackPriority 100
+		PlaybackPriority 300
 		PlaybackPCM "hw:${CardId},0"
 		JackControl "Headphones Jack"
 	}

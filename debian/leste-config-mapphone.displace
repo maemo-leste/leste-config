@@ -1,7 +1,6 @@
 /etc/asound.conf.leste
 /etc/conf.d/gpsd.leste
 /etc/default/keyboard.leste
-/etc/modprobe.d/blacklist-bluetooth.conf.leste
 /etc/modprobe.d/blacklist-idle.conf.leste
 /etc/modprobe.d/wire.conf.leste
 /etc/modules-load.d/droid4.conf.leste

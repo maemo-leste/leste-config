@@ -1,3 +1,9 @@
+leste-config (1.155-1) unstable; urgency=medium
+
+  * pixel3a/oneplus6: Fix 90-bootmac-wifi filename
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Tue, 25 Aug 2026 01:07:24 +0200
+
 leste-config (1.154-1) unstable; urgency=medium
 
   * mapphones: Fix ucm2

@@ -1,3 +1,11 @@
+leste-config (1.157-1) unstable; urgency=medium
+
+  * pixel3a: add proper CalScale value
+  * pixel3a: add new display brightness values
+  * n900: new display brightness values
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 30 Aug 2026 00:12:19 +0200
+
 leste-config (1.156-1) unstable; urgency=medium
 
   * n900: enable accelerometer

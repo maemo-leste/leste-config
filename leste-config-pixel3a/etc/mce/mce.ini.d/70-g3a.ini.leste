@@ -5,3 +5,17 @@
 [Modules]
 
 ModulesDevice=led-sw;led-dbus;iio-accelerometer;iio-als;evdevvibrator;iio-proximity
+
+[IioAls]
+CalScale = 216
+
+[DisplayBrightness]
+Dim=1
+
+Minimum=1;5;50;80;80;80
+Economy=3;15;70;80;100;100
+Normal=15;40;80;100;100;100
+Bright=60;80;100;100;100;100
+Maximum=100;100;100;100;100;100
+
+NoAlsLowering=1

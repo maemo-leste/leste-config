@@ -1,23 +1,46 @@
 SectionVerb {
 	EnableSequence [
-		cset "name='Lineout Left Playback Route' off"
-		cset "name='Lineout Right Playback Route' off"
-		cset "name='EMU Left Playback Route' off"
-		cset "name='EMU Right Playback Route' off"
-		cset "name='Earpiece Playback Route' off"
+		cset "name='Earpiece Mixer Voice Switch' off"
+		cset "name='Earpiece Mixer HiFi Switch' off"
+		cset "name='Earpiece Mixer Ext Switch' off"
+
+		cset "name='Speaker Right Mixer Voice Switch' off"
+		cset "name='Speaker Right Mixer HiFi Switch' off"
+		cset "name='Speaker Right Mixer Ext Switch' off"
+		cset "name='Speaker Left Mixer Voice Switch' off"
+		cset "name='Speaker Left Mixer HiFi Switch' off"
+		cset "name='Speaker Left Mixer Ext Switch' off"
+
+		cset "name='Lineout Right Mixer Voice Switch' off"
+		cset "name='Lineout Right Mixer HiFi Switch' off"
+		cset "name='Lineout Right Mixer Ext Switch' off"
+		cset "name='Lineout Left Mixer Voice Switch' off"
+		cset "name='Lineout Left Mixer HiFi Switch' off"
+		cset "name='Lineout Left Mixer Ext Switch' off"
+
+		cset "name='Headset Right Mixer Voice Switch' off"
+		cset "name='Headset Right Mixer HiFi Switch' off"
+		cset "name='Headset Right Mixer Ext Switch' off"
+		cset "name='Headset Left Mixer Voice Switch' off"
+		cset "name='Headset Left Mixer HiFi Switch' off"
+		cset "name='Headset Left Mixer Ext Switch' off"
+
+		cset "name='EMU Right Mixer Voice Switch' off"
+		cset "name='EMU Right Mixer HiFi Switch' off"
+		cset "name='EMU Right Mixer Ext Switch' off"
+		cset "name='EMU Left Mixer Voice Switch' off"
+		cset "name='EMU Left Mixer HiFi Switch' off"
+		cset "name='EMU Left Mixer Ext Switch' off"
+
 		cset "name='Ext Left Enable Switch' off"
 		cset "name='Ext Left Phase Invert Switch' off"
 		cset "name='Ext Mono Playback Switch' off"
 		cset "name='Call Volume' 3"
 		cset "name='Ext Right Enable Switch' off"
-		cset "name='Headset Left Playback Route' off"
-		cset "name='Headset Right Playback Route' off"
 		cset "name='HiFi Mono Playback Switch' off"
 		cset "name='Hifi Left Phase Invert Switch' off"
 		cset "name='Left Capture Route' off"
 		cset "name='Right Capture Route' off"
-		cset "name='Speaker Left Playback Route' off"
-		cset "name='Speaker Right Playback Route' off"
 		cset "name='Voice Loopback Switch' off"
 		cset "name='Mic1 Capture Volume' 15"
 		cset "name='Mic2 Capture Volume' 15"
@@ -27,14 +50,16 @@ SectionVerb {
 SectionDevice."Earpiece" {
 	Comment "Internal Earpiece"
 	EnableSequence [
+		cset "name='Earpiece Mixer Voice Switch' on"
+		cset "name='Earpiece Mixer HiFi Switch' on"
 		cset "name='Call Noise Cancellation' on"
 		cset "name='Call Output' Handset"
-		cset "name='Earpiece Playback Route' Voice"
 		cset "name='Right Capture Route' 'Mic 1'"
 	]
 
 	DisableSequence [
-		cset "name='Earpiece Playback Route' off"
+		cset "name='Earpiece Mixer Voice Switch' off"
+		cset "name='Earpiece Mixer HiFi Switch' off"
 		cset "name='Call Noise Cancellation' off"
 		cset "name='Right Capture Route' off"
 	]
@@ -49,15 +74,17 @@ SectionDevice."Earpiece" {
 SectionDevice."Speaker" {
 	Comment "Internal speaker"
 	EnableSequence [
+		cset "name='Speaker Right Mixer Voice Switch' on"
+		cset "name='Speaker Right Mixer HiFi Switch' on"
 		cset "name='Call Noise Cancellation' on"
 		cset "name='Call Output' Speakerphone"
-		cset "name='Speaker Right Playback Route' Voice"
 		cset "name='Left Capture Route' 'Mic 2'"
 	]
 
 	DisableSequence [
+		cset "name='Speaker Right Mixer Voice Switch' off"
+		cset "name='Speaker Right Mixer HiFi Switch' off"
 		cset "name='Call Noise Cancellation' off"
-		cset "name='Speaker Right Playback Route' off"
 		cset "name='Left Capture Route' off"
 	]
 
@@ -72,14 +99,18 @@ SectionDevice."Headphones" {
 	Comment "Headset"
 	EnableSequence [
 		cset "name='Call Output' Headset"
-		cset "name='Headset Left Playback Route' Voice"
-		cset "name='Headset Right Playback Route' Voice"
+		cset "name='Headset Left Mixer Voice Switch' on"
+		cset "name='Headset Right Mixer Voice Switch' on"
+		cset "name='Headset Left Mixer HiFi Switch' on"
+		cset "name='Headset Right Mixer HiFi Switch' on"
 		cset "name='Right Capture Route' 'Mic 1'"
 	]
 
 	DisableSequence [
-		cset "name='Headset Left Playback Route' off"
-		cset "name='Headset Right Playback Route' off"
+		cset "name='Headset Left Mixer Voice Switch' off"
+		cset "name='Headset Right Mixer Voice Switch' off"
+		cset "name='Headset Left Mixer HiFi Switch' off"
+		cset "name='Headset Right Mixer HiFi Switch' off"
 		cset "name='Right Capture Route' off"
 	]
 

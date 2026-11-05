@@ -8,12 +8,10 @@ SectionVerb {
 		cset "name='Ext Left Enable Switch' off"
 		cset "name='Ext Left Phase Invert Switch' off"
 		cset "name='Ext Mono Playback Switch' off"
-		cset "name='Ext Playback Volume' 0"
 		cset "name='Ext Right Enable Switch' off"
 		cset "name='Headset Left Playback Route' off"
 		cset "name='Headset Right Playback Route' off"
 		cset "name='HiFi Mono Playback Switch' off"
-		cset "name='HiFi Playback Volume' 8"
 		cset "name='Call Volume' 0"
 		cset "name='Hifi Left Phase Invert Switch' off"
 		cset "name='Left Capture Route' off"
@@ -21,7 +19,6 @@ SectionVerb {
 		cset "name='Speaker Left Playback Route' off"
 		cset "name='Speaker Right Playback Route' off"
 		cset "name='Voice Loopback Switch' off"
-		cset "name='Voice Playback Volume' 4"
 		cset "name='Mic1 Capture Volume' 0"
 		cset "name='Mic2 Capture Volume' 0"
 	]
@@ -29,7 +26,6 @@ SectionVerb {
 SectionDevice."Speaker" {
 	Comment "Internal speaker"
 	EnableSequence [
-		cset "name='HiFi Playback Volume' 7"
 		cset "name='HiFi Mono Playback Switch' on"
 		cset "name='Speaker Right Playback Route' HiFi"
 	]
@@ -86,7 +82,6 @@ SectionDevice."Headset" {
 SectionDevice."Headphones" {
 	Comment "Headset"
 	EnableSequence [
-		cset "name='HiFi Playback Volume' 4"
 		cset "name='Headset Left Playback Route' HiFi"
 		cset "name='Headset Right Playback Route' HiFi"
 	]

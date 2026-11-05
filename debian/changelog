@@ -1,3 +1,11 @@
+leste-config (1.158-1) unstable; urgency=medium
+
+  * mapphone: stop UCM writing the volume it declares
+  * mapphone: drive the outputs from mixer switches instead of route enums
+  * mapphone: align the VoiceCall devices with the shipped UCM
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Thu, 05 Nov 2026 20:49:54 +0200
+
 leste-config (1.157-1) unstable; urgency=medium
 
   * pixel3a: add proper CalScale value

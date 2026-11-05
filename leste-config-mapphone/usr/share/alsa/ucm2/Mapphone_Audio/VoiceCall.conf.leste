@@ -47,11 +47,12 @@ SectionVerb {
 	]
 }
 
-SectionDevice."Earpiece" {
+SectionDevice."Handset" {
 	Comment "Internal Earpiece"
 	EnableSequence [
 		cset "name='Earpiece Mixer Voice Switch' on"
 		cset "name='Earpiece Mixer HiFi Switch' on"
+		cset "name='HiFi Mono Playback Switch' on"
 		cset "name='Call Noise Cancellation' on"
 		cset "name='Call Output' Handset"
 		cset "name='Right Capture Route' 'Mic 1'"
@@ -60,22 +61,24 @@ SectionDevice."Earpiece" {
 	DisableSequence [
 		cset "name='Earpiece Mixer Voice Switch' off"
 		cset "name='Earpiece Mixer HiFi Switch' off"
+		cset "name='HiFi Mono Playback Switch' off"
 		cset "name='Call Noise Cancellation' off"
 		cset "name='Right Capture Route' off"
 	]
 
 	Value {
-		PlaybackVolume "Call Volume"
+		PlaybackVolume "Voice Playback Volume"
 		PlaybackChannels 2
 		PlaybackPriority 200
 		PlaybackPCM "hw:${CardId},0"
 	}
 }
-SectionDevice."Speaker" {
+SectionDevice."Speakerphone" {
 	Comment "Internal speaker"
 	EnableSequence [
 		cset "name='Speaker Right Mixer Voice Switch' on"
 		cset "name='Speaker Right Mixer HiFi Switch' on"
+		cset "name='HiFi Mono Playback Switch' on"
 		cset "name='Call Noise Cancellation' on"
 		cset "name='Call Output' Speakerphone"
 		cset "name='Left Capture Route' 'Mic 2'"
@@ -84,19 +87,20 @@ SectionDevice."Speaker" {
 	DisableSequence [
 		cset "name='Speaker Right Mixer Voice Switch' off"
 		cset "name='Speaker Right Mixer HiFi Switch' off"
+		cset "name='HiFi Mono Playback Switch' off"
 		cset "name='Call Noise Cancellation' off"
 		cset "name='Left Capture Route' off"
 	]
 
 	Value {
-		PlaybackVolume "Call Volume"
+		PlaybackVolume "Voice Playback Volume"
 		PlaybackChannels 2
 		PlaybackPriority 200
 		PlaybackPCM "hw:${CardId},0"
 	}
 }
-SectionDevice."Headphones" {
-	Comment "Headset"
+SectionDevice."Earbuds" {
+	Comment "Headphones"
 	EnableSequence [
 		cset "name='Call Output' Headset"
 		cset "name='Headset Left Mixer Voice Switch' on"
@@ -115,7 +119,7 @@ SectionDevice."Headphones" {
 	]
 
 	Value {
-		PlaybackVolume "Call Volume"
+		PlaybackVolume "Voice Playback Volume"
 		PlaybackChannels 2
 		PlaybackPriority 200
 		PlaybackPCM "hw:${CardId},0"
